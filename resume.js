@@ -237,7 +237,7 @@ function ResumeCtrl($scope) {
             date: {
               // 11
               month: "11",
-              year: "Nov 2015"
+              year: "2015"
             }
           },
 //           to: 'Present'

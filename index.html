@@ -106,7 +106,7 @@ table.referees { width: 60%; margin-top: 0cm; margin-bottom: 0cm;}
             <span class="jobTitle">{{job.jobtitle}}</span><br>
             <span class="employer">{{job.employer}}</span>
             <span class="location"> ({{job.location.city}}, {{job.location.state}})</span><br>
-            {{job.period.from.date.year}} to {{job.period.to.date.year||'Present'}}
+            {{job.period.from.date.month}}/{{job.period.from.date.year}} to {{job.period.to.date.month}}/{{job.period.to.date.year||'Present'}}
         </p>
         <div class="jobDescription">
             <p class="para" ng-repeat="d in job.description">
