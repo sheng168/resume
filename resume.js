@@ -219,7 +219,7 @@ function ResumeCtrl($scope) {
 
     history: {
       _y: {
-        jobtitle:'Lead SDK Engineer',
+        jobtitle:'Lead Mobile SDK Engineer',
         employer:'RealNetworks',
         location:{
           city: 'New York',
