@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/strict.dtd">
+<html ng-app ng-controller="ResumeCtrl">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
+    <script src="resume.js"></script>
+
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{{resume.header.name.title}} {{resume.header.name.firstname}} {{resume.header.name.middlenames}} {{resume.header.name.surname}} - R&eacute;sum&eacute;</title>
+    <style>
+
+/*
+ * compact.css -- Stylesheet suitable for printing an xmlresume to dead
+ * trees without using too many of them (Arial font, white background)
+ *
+ * Contributed 2002 by Mark Miller (joup at bigfoot dot com)
+ * http://xmlresume.sourceforge.net
+ */
+
+// This dummy style must be here because the xml tags above cause some 
+// browsers (Konqueror, Mozilla) to ignore the first style 
+.dummy { background-color: white }
+
+body, table { 
+    margin-top: 1cm; 
+    margin-bottom: 1cm;
+    font-size: 8pt;
+    background-color: white;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.resume { 
+    padding-left: 1.5cm;
+    padding-right: 1.5cm;
+}
+h2 {
+    margin-left: -.8cm;
+    font-family: sans-serif;
+    color: black;
+    border-bottom: solid 1pt black;
+    font-size: 115%;
+}
+p {
+    margin-bottom: 0.05cm;
+    margin-top: 0.15cm;
+}
+em { font-weight: bold; }
+ul { margin-top: 0.1cm; }
+
+.projects p { font-style: italic }
+ul.degrees { padding-left: 0.2cm; }
+.subjectsHeading { font-style: italic }
+.awardTitle { font-weight: bold }
+.bookTitle { font-style: italic }
+.citation { font-style: italic }
+.copyright { font-size: 75% }
+li.degree { margin-bottom: 0.2cm; }
+.degreeTitle { font-weight: bold }
+.employer { font-style: italic }
+.headerBlock { text-align: left }
+.jobTitle { font-weight: bold }
+.lastModified { font-size: 75% }
+.nameHeading { font-family: sans-serif; font-size: 125%; }
+div.referee { margin-bottom: 0.5cm; }
+table.referees { width: 60%; margin-top: 0cm; margin-bottom: 0cm;}
+.refereeName { font-weight: bold }
+.skillsetTitle { font-weight: bold }
+.urlA { font-family:sans-serif; color:red; }
+
+</style>
+</head>
+
+<body>
+<div class="resume">
+
+    <!-- contact info -->
+    <div class="header">
+        <h1 class="nameHeading">{{resume.header.name.title}} {{resume.header.name.firstname}} {{resume.header.name.middlenames}} {{resume.header.name.surname}}</h1>
+        <p class="address">{{resume.header.address.street}}<br>
+        {{resume.header.address.city}}, {{resume.header.address.state}} {{resume.header.address.zip}}</p>
+        <p>Phone: {{resume.header.contact.phone}}<br>
+        Email: <a href="mailto:{{resume.header.contact.email}}">{{resume.header.contact.email}}</a><br></p>
+    </div>
+
+    <!--objective-->
+    <h2 class="heading"><span class="headingText">Professional Objective</span></h2>
+
+    <p class="para" ng-repeat="obj in resume.objective">
+        {{obj}}
+    </p>
+
+    <!--skills-->
+    <div ng-repeat="skillarea in resume.skillarea">
+        <h2 class="heading"><span class="headingText">{{skillarea.title}}</span></h2>
+        <p ng-repeat="skillset in skillarea.skillset">
+            <span class="skillSetTitle">{{skillset.title}}: </span>
+            <span class="skills">
+                <span ng-repeat="skill in skillset.skill">{{skill}}{{($last)?'.':','}} </span>
+            </span>
+        </p>
+    </div>
+
+    <!--history-->
+    <h2 class="heading"><span class="headingText">Employment History</span></h2>
+    <div ng-repeat="job in resume.history">
+        <p class="job">
+            <span class="jobTitle">{{job.jobtitle}}</span><br>
+            <span class="employer">{{job.employer}}</span>
+            <span class="location"> ({{job.location.city}}, {{job.location.state}})</span><br>
+            {{job.period.from.date.year}} to {{job.period.to.date.year||'Present'}}
+        </p>
+        <div class="jobDescription">
+            <p class="para" ng-repeat="d in job.description">
+              {{d}}
+            </p>
+        </div>
+        <div class="projects" ng-show="job.projects"><p>Projects:</p>
+            <ul>
+                <li class="project" ng-repeat="project in job.projects">
+                    <span class="projectTitle">{{project.title}}: </span>
+                    {{project.description}}
+                </li>
+            </ul>
+        </div>
+        <div class="achievements" ng-show="job.achievements">
+            <p>Achievements:</p>
+            <ul>
+                <li class="achievement" ng-repeat="achievement in job.achievements">
+                    {{achievement}}
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- honors -->
+    <h2 class="heading"><span class="headingText">Honors and Recognition</span></h2>
+    <ul>
+        <li class="award" ng-repeat="award in resume.awards">
+            <span class="awardTitle">{{award.title}}</span>,
+            <span class="organization">{{award.organization}}</span>,
+            {{award.period.from.date.month}}/{{award.period.from.date.year}} to {{award.period.to.date.month}}/{{award.period.to.date.year}}
+        </li>
+    </ul>
+
+    <!-- education -->
+    <h2 class="heading"><span class="headingText">Education</span></h2>
+    <ul class="degrees">
+        <li class="degree" ng-repeat="degree in resume.academics.degrees">
+            <span class="degreeTitle">{{degree.level}} in {{degree.major}}</span>,
+            {{degree.date.month}}/{{degree.date.year}}<br>
+            <span class="institution">{{degree.institution}}</span>
+            <span class="location"> ({{degree.location.city}}, {{degree.location.state}})</span>
+            <p>
+                <span class="gpaPreamble">Overall GPA</span>: {{degree.gpa.score}} out of {{degree.gpa.possible}}.
+                <span class="note">
+                    <p class="para">{{degree.gpa.note.para}}
+                    </p>
+                </span>
+            </p>
+        </li>
+    </ul>
+
+    <!-- misc -->
+    <h2 class="heading"><span class="headingText">Miscellany</span></h2>
+    <p class="para" ng-repeat="misc in resume.misc">
+      {{misc}}
+    </p>
+
+    <p class="lastModified">Last modified {{resume.lastModified.date.month}}/{{resume.lastModified.date.year}}.</p>
+</div>
+
+<pre>
+    {{resume_|json}}
+</pre>
+</body>
+</html>
