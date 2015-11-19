@@ -20,13 +20,11 @@ function ResumeCtrl($scope) {
     },
 
     objective: [
-      "Software engineering position in a creative and challenging environment. \
-      I'm interested in taking a long-term approach to software development,\
-      following good practices to development software that meets the user's\
-      requirement, using sound designs and thorough testing.",
+      "Seeking a software engineering position in a creative and collaborative environment \
+      where I can practice my craft and learn as well as teach.",
 
       'My current interests include Android and iOS mobile application development,\
-      the Java and Scala programming language, open-source development(https://bitbucket.org/sheng/reuse_lib),\
+      the Java, Swfit and Scala programming language, open-source development(https://github.com/sheng168),\
       high throughput and low latency architecture\
       and API design(https://bitbucket.org/sheng/parsefacade).'],
 
