@@ -245,11 +245,16 @@ function ResumeCtrl($scope) {
         projects:[
           {
             title:'RealCloud SDK',
-            description:"Develop Android SDK while managing contractor to develop iOS SDK. Allow third-party apps to have easy access to RealPlayer Cloud data store via REST API."
+            description:"Develop Android SDK while managing contractor to develop iOS SDK. \
+            Allow third-party apps to have easy access to RealPlayer Cloud data store via REST API.\
+            We settled on building our SDK on top of Retrofit and OkHttp to allow use to \
+            use type-safe Java interfaces to map to our REST API and perform client side \
+            transformations to fix inconsistencies."
           },
           {
             title:'RealTimes SDK',
-            description:"Polish private API for public consumption allowing third-party apps to generate video stories by supplying their own content."
+            description:"Polish private API for public consumption allowing third-party apps \
+            to generate video stories by supplying their own content."
           }
         ],
 //         achievements:[
