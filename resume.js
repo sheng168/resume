@@ -216,6 +216,38 @@ function ResumeCtrl($scope) {
     ],
 
     history: {
+      _x: {
+        jobtitle:'Sr Software Engineer',
+        employer:'Catchpoint',
+        location:{
+          city: 'New York',
+          state: 'NY'
+        },
+        period:{
+          from: {
+            date: {
+              // 11
+              month: "1",
+              year: "2016"
+            }
+          },
+          to: 'Present'
+        },
+        description:[
+          'Responsible for the development of mobile SDK.'],
+        projects:[
+          {
+            title:'Safari Mobile',
+            description:". \
+            ."
+          },
+          {
+            title:'Java Client for REST API',
+            description:" \
+            "
+          }
+        ],
+      },
       _y: {
         jobtitle:'Lead Mobile SDK Engineer',
         employer:'RealNetworks',
