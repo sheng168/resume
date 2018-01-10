@@ -15,7 +15,7 @@ function ResumeCtrl($scope) {
       },
       contact:{
         phone: '347-688-JAVA(5282)',
-        email: 'career15@jsy.us'
+        email: 'career18@jsy.us'
       }
     },
 
