@@ -238,7 +238,8 @@ function ResumeCtrl($scope) {
         projects:[
           {
             title:'Antlr Grammar',
-            description:"."
+            description:"Create a grammar to replace the existing hand-written parser for test scripts.\
+            "
           },
           {
             title:'Safari Mobile',
