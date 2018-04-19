@@ -237,14 +237,17 @@ function ResumeCtrl($scope) {
           'Responsible for the development of mobile SDK.'],
         projects:[
           {
+            title:'Antlr Grammar',
+            description:"."
+          },
+          {
             title:'Safari Mobile',
-            description:". \
-            ."
+            description:"Instructment Safari Mobile in simulator and real device to measure network activity while performing automated testing."
           },
           {
             title:'Java Client for REST API',
-            description:" \
-            "
+            description:"Create the Java client library for our REST API. \
+Ensure that authentication token renewal is implemented both correctly and efficently."
           }
         ],
       },
