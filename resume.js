@@ -243,12 +243,12 @@ function ResumeCtrl($scope) {
           },
           {
             title:'Safari Mobile',
-            description:"Instructment Safari Mobile in simulator and real device to measure network activity while performing automated testing."
+            description:"Instrument Safari Mobile in simulator and real device to measure network activity while performing automated testing."
           },
           {
             title:'Java Client for REST API',
             description:"Create the Java client library for our REST API. \
-Ensure that authentication token renewal is implemented both correctly and efficently."
+Ensure that authentication token renewal is implemented both correctly and efficiently."
           }
         ],
       },
