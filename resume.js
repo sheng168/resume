@@ -234,7 +234,7 @@ function ResumeCtrl($scope) {
           to: 'Present'
         },
         description:[
-          'Responsible for the development of mobile SDK.'],
+          'As a member of the Agent team, contribute to development of software for gathering network measurements, perform code reviews and support production'],
         projects:[
           {
             title:'Antlr Grammar',
