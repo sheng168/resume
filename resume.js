@@ -4,7 +4,7 @@ function ResumeCtrl($scope) {
       name: {
 //        title: 'Mr.',
         firstname: 'Jin',
-        middlenames: '(Sheng)',
+        middlenames: 'Sheng',
         surname: 'Yu'
       },
       address: {
@@ -37,14 +37,15 @@ function ResumeCtrl($scope) {
             title: 'Programming Languages',
             skill: [
               'Java',
+              'Kotlin',
               'Swift',
               'Objective C',
+              'C# .Net',
               'JavaScript',
               'TypeScript',
               'Scala',
-              'C/C++',
               'Object Pascal (Delphi)',
-              'C# .Net',
+              'C/C++',
               'Visual Basic',
               'SQL',
               'MIPS assembly',
