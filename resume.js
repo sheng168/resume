@@ -24,7 +24,7 @@ function ResumeCtrl($scope) {
       where I can practice my craft and learn as well as teach.",
 
       'My current interests include Android and iOS mobile application development,\
-      the Java, Swfit and Scala programming language, open-source development(https://github.com/sheng168),\
+      the Java, Kotlin, Swfit and Scala programming languages, open-source development(https://github.com/sheng168),\
       high throughput and low latency architecture\
       and API design(https://bitbucket.org/sheng/parsefacade).'],
 
