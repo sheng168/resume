@@ -227,12 +227,16 @@ function ResumeCtrl($scope) {
         period:{
           from: {
             date: {
-              // 11
               month: "1",
               year: "2016"
             }
           },
-          to: 'Present'
+          to: {
+            date: {
+              month: "4",
+              year: "2018"
+            }
+          },
         },
         description:[
           'As a member of the Agent team, contribute to development of software for gathering network measurements, perform code reviews and support production'],
