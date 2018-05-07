@@ -239,8 +239,12 @@ function ResumeCtrl($scope) {
           },
         },
         description:[
-          'As a member of the Agent team, contribute to development of software for gathering network measurements, perform code reviews and support production'],
+          'As a member of the Agent team using mainly C# and .Net in Visual Studio and Xamarin, contribute to development of software for gathering network measurements, perform code reviews and support production'],
         projects:[
+          {
+            title:'Agent 2.0 Rewrite',
+            description:"Contribute my experience to this major effort to reimplement our core product. Advocate for finding simple designs to our problems; using a limited number of well know features to compose our solution."
+          },
           {
             title:'Antlr Grammar',
             description:"Create a grammar to replace the existing hand-written parser for test scripts.\
