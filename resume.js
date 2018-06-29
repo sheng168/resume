@@ -342,9 +342,9 @@ Ensure that authentication token renewal is implemented both correctly and effic
 //             via push notifications."
 //           },
 //         ],
-        achievements:[
-          "Improve connectivity to London headquarter by setting up VPN tunnel for entire office to replace individual VPN sessions from each client machine.",
-        ]
+//         achievements:[
+//           "Improve connectivity to London headquarter by setting up VPN tunnel for entire office to replace individual VPN sessions from each client machine.",
+//         ]
       },
       a: {
         jobtitle:'Lead Development Engineer',
