@@ -4,7 +4,7 @@ function ResumeCtrl($scope) {
       name: {
 //        title: 'Mr.',
         firstname: 'Jin',
-        middlenames: 'Sheng',
+        middlenames: 'S',
         surname: 'Yu'
       },
       address: {
@@ -38,12 +38,17 @@ function ResumeCtrl($scope) {
             skill: [
               'Java',
               'Kotlin',
+              'Scala',
               'Swift',
               'Objective C',
               'C# .Net',
               'JavaScript',
-              'TypeScript',
-              'Scala',
+              'TypeScript'
+            ]
+          },
+          {
+            title: 'Archive Languages',
+            skill: [
               'Object Pascal (Delphi)',
               'C/C++',
               'Visual Basic',
@@ -60,30 +65,30 @@ function ResumeCtrl($scope) {
             title: 'Java',
             skill: [
               'Java Programming Language',
-              'JVM Architecture',
-              'Memory Model',
+//               'JVM Architecture',
+//               'Memory Model',
               'Threading/Synchronization',
               'JDBC',
-              'RMI',
+//               'RMI',
               'java.io',
               'java.net',
               'Collections',
               'Reflection API',
-              'JavaBean',
+//               'JavaBean',
               'Servlets and JSP',
               'JMS',
               'Spring',
               'Swing/AWT'
             ]
           },
-          {
-            title: 'Google',
-            skill: [
-              'Android APIs',
-              'Integrate with Google Calendar by generating ICS file using Servlet/JSP',
-              'AppEngine(Python and Java)'
-            ]
-          },
+          // {
+//             title: 'Google',
+//             skill: [
+//               'Android APIs',
+//               'Integrate with Google Calendar by generating ICS file using Servlet/JSP',
+//               'AppEngine(Python and Java)'
+//             ]
+//           },
           {
             title: 'Software Design',
             skill: [
@@ -112,89 +117,89 @@ function ResumeCtrl($scope) {
               'SQLite',
               'Access',
               'FileMaker Pro',
-              'WebFM'
+//               'WebFM'
             ]
           },
-          {
-            title: 'Web',
-            skill: [
-              'AngularJS',
-              'JSON',
-              'REST',
-              'XML',
-              'HTML',
-              'JSP',
-              'Servlets',
-              'ASP/ASPX',
-              'Ajax using GWT',
-              'Dream Weaver',
-              'Claris Homepage',
-              'Adobe Pagemill',
-              'CGI development'
-            ]
-          },
-          {
-            title: 'Multimedia',
-            skill: [
-              'Macromedia Director',
-              'Macromedia Flash',
-              'Macromedia Authorware',
-              'HyperCard',
-              'OpenGL'
-            ]
-          },
+          // {
+//             title: 'Web',
+//             skill: [
+//               'AngularJS',
+//               'JSON',
+//               'REST',
+//               'XML',
+//               'HTML',
+//               'JSP',
+//               'Servlets',
+//               'ASP/ASPX',
+//               'Ajax using GWT',
+//               'Dream Weaver',
+//               'Claris Homepage',
+//               'Adobe Pagemill',
+//               'CGI development'
+//             ]
+//           },
+          // {
+//             title: 'Multimedia',
+//             skill: [
+//               'Macromedia Director',
+//               'Macromedia Flash',
+//               'Macromedia Authorware',
+//               'HyperCard',
+//               'OpenGL'
+//             ]
+//           },
           {
             title: 'Development Environments',
             skill: [
               'Eclipse',
               'JetBrains',
               'NetBeans',
-              'Borland JBuilder',
+//               'Borland JBuilder',
               'Xcode',
-              'Microsoft Visual Studio (Visual Basic, C++, C# .NET)',
-              'IBM VisualAge for Java',
-              'J2EE',
-              'IBM WebSphere',
-              'BEA Weblogic',
-              'Apache Tomcat',
-              'Borland Delphi',
+              'Microsoft Visual Studio',
+//               'IBM VisualAge for Java',
+//               'J2EE',
+//               'IBM WebSphere',
+//               'BEA Weblogic',
+//               'Apache Tomcat',
+//               'Borland Delphi',
               'GIT',
-              'Subversion(SVN)',
-              'SourceSafe',
-              'PVCS',
-              'Metrowerks IDE (C/C++) for Macintosh',
-              'Script Debugger for AppleScript'
+              'Subversion(SVN)'
+//               'SourceSafe',
+//               'PVCS',
+//               'Metrowerks IDE (C/C++) for Macintosh',
+//               'Script Debugger for AppleScript'
             ]
           }
         ]
       },
-      {
-        title: 'Hardware',
-
-        skillset: [
-          {
-            title: 'Electrical Engineering',
-            skill: [
-              'Analog Circuits',
-              'Digital Circuits',
-              'Theories',
-              'Principles'
-            ]
-          },
-          {
-            title: 'Computer Hardware',
-            skill: [
-              'Microcontroller Programming',
-              'Combination Circuits',
-              'System Architecture',
-              'Pipelining',
-              'Out-of-order Execution',
-              'Cache Designs',
-              'Minimization'
-            ]
-          }
-        ]
-      },
+//       {
+//         title: 'Hardware',
+// 
+//         skillset: [
+//           {
+//             title: 'Electrical Engineering',
+//             skill: [
+//               'Analog Circuits',
+//               'Digital Circuits',
+//               'Theories',
+//               'Principles'
+//             ]
+//           },
+//           {
+//             title: 'Computer Hardware',
+//             skill: [
+//               'Microcontroller Programming',
+//               'Combination Circuits',
+//               'System Architecture',
+//               'Pipelining',
+//               'Out-of-order Execution',
+//               'Cache Designs',
+//               'Minimization'
+//             ]
+//           }
+//         ]
+//       },
 
       {
         title: 'Finance',
@@ -471,42 +476,42 @@ Ensure that authentication token renewal is implemented both correctly and effic
             }
           }
         },
-        description:['Crisp Wireless provides innovative mobile content management solutions enabling consumer-facing companies to deliver rich media content and engaging applications for revenue generation, brand promotion, and customer loyalty.'],
-        projects:[
-          {
-            title:'Tribune Media',
-            description:"Complete the development, testing and deployment of multiple\
-            Tribune Media mobile news sites. Use xml data feeds for content integration.\
-        Provide parsing and conversion of html into mobile friendly markups.\
-        Setup version control system (svn) and create procedure for porting changes\
-      between sites."
-          },
-          {
-            title:'Lucene',
-            description:"Implement full text search of content management system using Apache Lucene,\
-            a text search engine library written entirely in Java.  Setup process to index,\
-            search, update and delete content."
-          },
-          {
-            title:'RSS',
-            description:"Create connector for RSS to our content management system allowing RSS items\
-            to be imported and synchronize to our system and allowing our system to\
-            publish RSS feeds."
-          },
-          {
-            title:'JMX Monitoring &amp; Configuration',
-            description:"Create JMX management beans to monitor and configure server-side tasks.\
-            Gather statistics about number of items processed and number of errors.\
-            Allow debug option to be changed on a live production system without\
-            the need to restart.  Create Servlet filter to validate output for\
-            WML and XHTML compliance."
-          }
-        ],
-        achievements:[
-          "Integrate HTML parser to clean up and sanitize HTML input into well-form xhtml\
-            replacing original ad-hoc string search and replace solution that requires\
-            constant updating."
-        ]
+        // description:['Crisp Wireless provides innovative mobile content management solutions enabling consumer-facing companies to deliver rich media content and engaging applications for revenue generation, brand promotion, and customer loyalty.'],
+//         projects:[
+//           {
+//             title:'Tribune Media',
+//             description:"Complete the development, testing and deployment of multiple\
+//             Tribune Media mobile news sites. Use xml data feeds for content integration.\
+//         Provide parsing and conversion of html into mobile friendly markups.\
+//         Setup version control system (svn) and create procedure for porting changes\
+//       between sites."
+//           },
+//           {
+//             title:'Lucene',
+//             description:"Implement full text search of content management system using Apache Lucene,\
+//             a text search engine library written entirely in Java.  Setup process to index,\
+//             search, update and delete content."
+//           },
+//           {
+//             title:'RSS',
+//             description:"Create connector for RSS to our content management system allowing RSS items\
+//             to be imported and synchronize to our system and allowing our system to\
+//             publish RSS feeds."
+//           },
+//           {
+//             title:'JMX Monitoring &amp; Configuration',
+//             description:"Create JMX management beans to monitor and configure server-side tasks.\
+//             Gather statistics about number of items processed and number of errors.\
+//             Allow debug option to be changed on a live production system without\
+//             the need to restart.  Create Servlet filter to validate output for\
+//             WML and XHTML compliance."
+//           }
+//         ],
+//         achievements:[
+//           "Integrate HTML parser to clean up and sanitize HTML input into well-form xhtml\
+//             replacing original ad-hoc string search and replace solution that requires\
+//             constant updating."
+//         ]
       },
       d:{
         jobtitle:'Senior Systems Consultant',
@@ -529,21 +534,21 @@ Ensure that authentication token renewal is implemented both correctly and effic
             }
           }
         },
-        description:["A technology consulting firm, building and refining critical computer\
-          technology solutions for major clients since 1981."],
-        projects:[
-          {
-            title:'Bottomline Technologies (EPAY)',
-            description:"Perform development, testing and deployment of banking and securities\
-            applications using WebSeries, the core Bottomline platform for banking\
-            and payment systems.\
-            The user interface is built using HTML with JavaScript for data validation and lookup.\
-        The server side is a combination of JSP, Custom Tags, Servlet and JavaBeans\
-      running on WebSphere, Weblogic and JBoss in Windows or Unix environment."
-          }
-
-        ],
-        achievements:[]
+        // description:["A technology consulting firm, building and refining critical computer\
+//           technology solutions for major clients since 1981."],
+//         projects:[
+//           {
+//             title:'Bottomline Technologies (EPAY)',
+//             description:"Perform development, testing and deployment of banking and securities\
+//             applications using WebSeries, the core Bottomline platform for banking\
+//             and payment systems.\
+//             The user interface is built using HTML with JavaScript for data validation and lookup.\
+//         The server side is a combination of JSP, Custom Tags, Servlet and JavaBeans\
+//       running on WebSphere, Weblogic and JBoss in Windows or Unix environment."
+//           }
+// 
+//         ],
+//         achievements:[]
       },
       e:{
         jobtitle:'Professional Staff Software Developer',
@@ -566,21 +571,21 @@ Ensure that authentication token renewal is implemented both correctly and effic
             }
           }
         },
-        description:['SRA is a leading provider of information technology services and\
-            solutions - including strategic consulting; systems design, development\
-  and integration; and outsourcing and operations management - to clients\
-  in national security, civil government, and health care and public health.'],
-        projects:[
-          {
-            title:'EPA Portal',
-            description:"Create web portal for the EPA using Oracle Portal Server 9i.\
-            Create Portlets using Java, JSP, Struts and Oracle JDeveloper.\
-            Use JNDI and JDBC to manage user accounts, including login lookup\
-            and password resets.  Use XML and XSLT to display news feeds in portlets."
-          }
-
-        ],
-        achievements:[]
+        // description:['SRA is a leading provider of information technology services and\
+//             solutions - including strategic consulting; systems design, development\
+//   and integration; and outsourcing and operations management - to clients\
+//   in national security, civil government, and health care and public health.'],
+//         projects:[
+//           {
+//             title:'EPA Portal',
+//             description:"Create web portal for the EPA using Oracle Portal Server 9i.\
+//             Create Portlets using Java, JSP, Struts and Oracle JDeveloper.\
+//             Use JNDI and JDBC to manage user accounts, including login lookup\
+//             and password resets.  Use XML and XSLT to display news feeds in portlets."
+//           }
+// 
+//         ],
+//         achievements:[]
       },
       f: {
         jobtitle: "Bachelor of Science in Computer Science and Engineering",
@@ -604,37 +609,37 @@ Ensure that authentication token renewal is implemented both correctly and effic
             }
           }
         },
-        description: "I return to school full-time to complete the last two years of college. In addition to my major, my GEC course contains a concentration of my interest in Economics.",
-        projects: {
-          project1: {
-            title: "Capstone Project",
-            description: "Create web application using ASP .NET C# for working with Dependency Structure Matrix (DSM).  The application allows users to import their DSM in Excel CSV format or enter information directly using the web interface."
-          },
-          project2: {
-            title: "Computer Graphic",
-            description: "Use C, GLUT and OpenGL to create 2D and 3D graphics and user interface."
-          },
-          project3: {
-            title: "Advance OS Lab",
-            description: "Use C/C++ and UNIX API to implement command line interpreter."
-          },
-          project4: {
-            title: "Systems Project",
-            description: "Use Java to implement parser for assembly language to simple CPU, assembler, linker/loader and simulator."
-          },
-          project5: {
-            title: "Programming Language",
-            description: "Use Javacc and java to build an interpreter for HyperTalk like scripting language."
-          },
-          project6: {
-            title: "OS Lab",
-            description: "Use C to implement various operation system components; including priority base process scheduler, virtual memory system, networking layer, disk scheduler in OSP environment."
-          },
-          project7: {
-            title: "Numerical Methods",
-            description: "Use C/C++ to implement numerical algorithms that are use to generate 3D images."
-          }
-        }
+        // description: "I return to school full-time to complete the last two years of college. In addition to my major, my GEC course contains a concentration of my interest in Economics.",
+//         projects: {
+//           project1: {
+//             title: "Capstone Project",
+//             description: "Create web application using ASP .NET C# for working with Dependency Structure Matrix (DSM).  The application allows users to import their DSM in Excel CSV format or enter information directly using the web interface."
+//           },
+//           project2: {
+//             title: "Computer Graphic",
+//             description: "Use C, GLUT and OpenGL to create 2D and 3D graphics and user interface."
+//           },
+//           project3: {
+//             title: "Advance OS Lab",
+//             description: "Use C/C++ and UNIX API to implement command line interpreter."
+//           },
+//           project4: {
+//             title: "Systems Project",
+//             description: "Use Java to implement parser for assembly language to simple CPU, assembler, linker/loader and simulator."
+//           },
+//           project5: {
+//             title: "Programming Language",
+//             description: "Use Javacc and java to build an interpreter for HyperTalk like scripting language."
+//           },
+//           project6: {
+//             title: "OS Lab",
+//             description: "Use C to implement various operation system components; including priority base process scheduler, virtual memory system, networking layer, disk scheduler in OSP environment."
+//           },
+//           project7: {
+//             title: "Numerical Methods",
+//             description: "Use C/C++ to implement numerical algorithms that are use to generate 3D images."
+//           }
+//         }
       },
       jobg: {
         jobtitle: "Senior Software Developer",
@@ -657,29 +662,29 @@ Ensure that authentication token renewal is implemented both correctly and effic
             }
           }
         },
-        description: {
-          para1: "Ultryx Corporation delivers Enterprise Channel Management (ECM) software and services to global manufacturers. UltryxChannels(TM) solutions enable manufacturers to quickly and flexibly integrate their back-office systems with channel specific business processes to increase operating margins, reduce cycle times, and improve customer service.",
-//          para2: "Founded in 1984, Ultryx Corporation is privately held and is based in Columbus, Ohio. Over 300 manufacturers in 53 countries employ Ultryx software solutions in their operations. For more information, visit www.ultryx.com.",
-//          para3: "UltryxChannels(TM) is a registered trademark of Ultryx Corporation.",
-          para4: "Note: Ultryx was an Internet startup that is not longer in operation."
-        },
-        projects: {
-          project1: {
-            title: "eCommerce",
-            description: "Worked in the product team to create web application framework including membership, preference, privilege, product catalog, dynamic content components using Java Servlet, JSP, JDBC, EJB and IBM WebSphere. MS SQL Server, Oracle and DB2 databases are supported. Application can be deployed with IIS or Apache user respective plugin."
-          },
-          project2: {
-            title: "eCommerce Configurator",
-            description: "Create configuration and management application using Java and Swing API, including JTree and JTable components with custom data models and renderers. Implement on-demand loading of XML configuration files into TreeModel to speed up application startup time and scalability. The application uses worker threads outside the event handling thread for background tasks to ensure a responsive user interface and can dynamically load classes to extend its own functionality."
-          },
-          project3: {
-            title: "Copeland",
-            description: "Created multi-threaded Java server to connect ASP web front-end running on Microsoft IIS to IBM mainframe back-end using CICS transaction gateway. The server handles inventory status, order placement and order status messages. It was tuned for performance and scalability using stress testing tool and application profiler. Thread pools and database connection pools are use to optimize performance."
-          }
-        },
-        achievements: [
-          "Lead the transition from Microsoft to Java development environment.",
-          "Mentor junior developers in Java development. Perform code review, document best practices, establish coding standards."]
+        // description: {
+//           para1: "Ultryx Corporation delivers Enterprise Channel Management (ECM) software and services to global manufacturers. UltryxChannels(TM) solutions enable manufacturers to quickly and flexibly integrate their back-office systems with channel specific business processes to increase operating margins, reduce cycle times, and improve customer service.",
+// //          para2: "Founded in 1984, Ultryx Corporation is privately held and is based in Columbus, Ohio. Over 300 manufacturers in 53 countries employ Ultryx software solutions in their operations. For more information, visit www.ultryx.com.",
+// //          para3: "UltryxChannels(TM) is a registered trademark of Ultryx Corporation.",
+//           para4: "Note: Ultryx was an Internet startup that is not longer in operation."
+//         },
+        // projects: {
+//           project1: {
+//             title: "eCommerce",
+//             description: "Worked in the product team to create web application framework including membership, preference, privilege, product catalog, dynamic content components using Java Servlet, JSP, JDBC, EJB and IBM WebSphere. MS SQL Server, Oracle and DB2 databases are supported. Application can be deployed with IIS or Apache user respective plugin."
+//           },
+//           project2: {
+//             title: "eCommerce Configurator",
+//             description: "Create configuration and management application using Java and Swing API, including JTree and JTable components with custom data models and renderers. Implement on-demand loading of XML configuration files into TreeModel to speed up application startup time and scalability. The application uses worker threads outside the event handling thread for background tasks to ensure a responsive user interface and can dynamically load classes to extend its own functionality."
+//           },
+//           project3: {
+//             title: "Copeland",
+//             description: "Created multi-threaded Java server to connect ASP web front-end running on Microsoft IIS to IBM mainframe back-end using CICS transaction gateway. The server handles inventory status, order placement and order status messages. It was tuned for performance and scalability using stress testing tool and application profiler. Thread pools and database connection pools are use to optimize performance."
+//           }
+//         },
+//         achievements: [
+//           "Lead the transition from Microsoft to Java development environment.",
+//           "Mentor junior developers in Java development. Perform code review, document best practices, establish coding standards."]
       },
       jobh: {
         jobtitle: "Software Developer",
@@ -702,16 +707,16 @@ Ensure that authentication token renewal is implemented both correctly and effic
             }
           }
         },
-        projects: {
-          project1: {
-            title: "CertainCert",
-            description: "Developed, maintained and enhanced insurance certificate tracking product base on customer request and feedback using Borland Delphi version 1 to 4.  The product works both in desktop mode using Microsoft Access and client-server mode using MS SQL Server. Created online software licensing system including verification of user credentials and online software key generation using Java Servlet and JDBC. Serve as top level of technical support. Verify software bugs by creating customer environment including importing customer data. Fix bugs in software product and create updates for affected customers."
-          },
-          project2: {
-            title: "BMW",
-            description: "Implemented asset recovery system for BMW Financial Service using Visual Basic and MS SQL Server. All data access from Visual Basic component is done by invoking stored procedures written using TSQL in SQL Server."
-          }
-        }
+        // projects: {
+//           project1: {
+//             title: "CertainCert",
+//             description: "Developed, maintained and enhanced insurance certificate tracking product base on customer request and feedback using Borland Delphi version 1 to 4.  The product works both in desktop mode using Microsoft Access and client-server mode using MS SQL Server. Created online software licensing system including verification of user credentials and online software key generation using Java Servlet and JDBC. Serve as top level of technical support. Verify software bugs by creating customer environment including importing customer data. Fix bugs in software product and create updates for affected customers."
+//           },
+//           project2: {
+//             title: "BMW",
+//             description: "Implemented asset recovery system for BMW Financial Service using Visual Basic and MS SQL Server. All data access from Visual Basic component is done by invoking stored procedures written using TSQL in SQL Server."
+//           }
+//         }
       },
       jobi: {
         jobtitle: "Software Developer",
@@ -734,15 +739,15 @@ Ensure that authentication token renewal is implemented both correctly and effic
             }
           }
         },
-        projects: {
-          project: {
-            title: "Multimedia",
-            description: "Setup and administrated Web server.  Created CGI scripts for various functions including tracking web site traffic and web interface to view and edit databases records. Created multimedia CBT using Macromedia Director and database applications using FileMaker Pro."
-          }
-        }
+        // projects: {
+//           project: {
+//             title: "Multimedia",
+//             description: "Setup and administrated Web server.  Created CGI scripts for various functions including tracking web site traffic and web interface to view and edit databases records. Created multimedia CBT using Macromedia Director and database applications using FileMaker Pro."
+//           }
+//         }
       },
       jobj: {
-        jobtitle: "Software Developer Internship",
+        jobtitle: "Software Developer High School Internship",
         employer: "DM2 Solutions",
         location: {
           city: "Columbus",
@@ -762,12 +767,12 @@ Ensure that authentication token renewal is implemented both correctly and effic
             }
           }
         },
-        projects: {
-          project: {
-            title: "Intern",
-            description: "Helped out in various software projects including custom database implementation, multimedia informational training implementation and testing."
-          }
-        }
+        // projects: {
+//           project: {
+//             title: "Intern",
+//             description: "Helped out in various software projects including custom database implementation, multimedia informational training implementation and testing."
+//           }
+//         }
       }
     },
 
@@ -827,7 +832,7 @@ Ensure that authentication token renewal is implemented both correctly and effic
 
     lastModified: {
       date: {
-        month: '4',
+        month: '7',
         year: '2018'
       }
     },

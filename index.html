@@ -75,9 +75,11 @@ table.referees { width: 60%; margin-top: 0cm; margin-bottom: 0cm;}
     <!-- contact info -->
     <div class="header">
         <h1 class="nameHeading">{{resume.header.name.title}} {{resume.header.name.firstname}} {{resume.header.name.middlenames}} {{resume.header.name.surname}}</h1>
+<!-- 
         <p class="address">{{resume.header.address.street}}<br>
         {{resume.header.address.city}}, {{resume.header.address.state}} {{resume.header.address.zip}}</p>
         <p>Phone: {{resume.header.contact.phone}}<br>
+ -->
         Email: <a href="mailto:{{resume.header.contact.email}}">{{resume.header.contact.email}}</a><br></p>
     </div>
 
@@ -103,9 +105,9 @@ table.referees { width: 60%; margin-top: 0cm; margin-bottom: 0cm;}
     <h2 class="heading"><span class="headingText">Employment History</span></h2>
     <div ng-repeat="job in resume.history">
         <p class="job">
-            <span class="jobTitle">{{job.jobtitle}}</span><br>
+            <span class="jobTitle">{{job.jobtitle}}: </span>
             <span class="employer">{{job.employer}}</span>
-            <span class="location"> ({{job.location.city}}, {{job.location.state}})</span><br>
+            <span class="location"> ({{job.location.city}}, {{job.location.state}})</span>
             {{job.period.from.date.month}}/{{job.period.from.date.year}} to {{job.period.to.date.month}}/{{job.period.to.date.year||'Present'}}
         </p>
         <div class="jobDescription">
@@ -131,7 +133,7 @@ table.referees { width: 60%; margin-top: 0cm; margin-bottom: 0cm;}
         </div>
     </div>
 
-    <!-- honors -->
+    <!-- honors 
     <h2 class="heading"><span class="headingText">Honors and Recognition</span></h2>
     <ul>
         <li class="award" ng-repeat="award in resume.awards">
@@ -139,7 +141,7 @@ table.referees { width: 60%; margin-top: 0cm; margin-bottom: 0cm;}
             <span class="organization">{{award.organization}}</span>,
             {{award.period.from.date.month}}/{{award.period.from.date.year}} to {{award.period.to.date.month}}/{{award.period.to.date.year}}
         </li>
-    </ul>
+    </ul>-->
 
     <!-- education -->
     <h2 class="heading"><span class="headingText">Education</span></h2>
@@ -159,11 +161,11 @@ table.referees { width: 60%; margin-top: 0cm; margin-bottom: 0cm;}
         </li>
     </ul>
 
-    <!-- misc -->
+    <!-- misc 
     <h2 class="heading"><span class="headingText">Miscellany</span></h2>
     <p class="para" ng-repeat="misc in resume.misc">
       {{misc}}
-    </p>
+    </p>-->
 
     <p class="lastModified">Last modified {{resume.lastModified.date.month}}/{{resume.lastModified.date.year}}.</p>
 </div>
