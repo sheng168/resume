@@ -244,7 +244,9 @@ function ResumeCtrl($scope) {
           },
         },
         description:[
-          'As a member of the Agent team using mainly C# and .Net in Visual Studio and Xamarin, contribute to development of software for gathering network measurements, perform code reviews and support production'],
+          'As a member of the Agent team, Maintain and enhance the network monitoring SaaS product. Triage bug reports, fix software defects and development new features. \
+           Estimate development effects for backlog tasks. Perform R&D to determine feasibility and break down large tasks. \
+           Evaluate software libraries for inclusion in our projects. Perform code reviews and production support.'],
         projects:[
           {
             title:'Agent 2.0 Rewrite',
@@ -257,7 +259,8 @@ function ResumeCtrl($scope) {
           },
           {
             title:'Safari Mobile',
-            description:"Instrument Safari Mobile in simulator and real device to measure network activity while performing automated testing."
+            description:"Port Agent software from Windows/Linux to MacOS using mainly C# and .Net in Visual Studio and Xamarin Studio.\
+              Instrument Safari Mobile in simulator and real device to measure network activity while performing automated testing."
           },
           {
             title:'Java Client for REST API',
