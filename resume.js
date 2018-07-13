@@ -244,7 +244,8 @@ function ResumeCtrl($scope) {
           },
         },
         description:[
-          'As a member of the Agent team, Maintain and enhance the network monitoring SaaS product. Triage bug reports, fix software defects and development new features. \
+          'As a member of the Agent team, Maintain and enhance the network monitoring SaaS product. \
+           Triage bug reports, fix software defects and develop new features. \
            Estimate development effects for backlog tasks. Perform R&D to determine feasibility and break down large tasks. \
            Evaluate software libraries for inclusion in our projects. Perform code reviews and production support.'],
         projects:[
