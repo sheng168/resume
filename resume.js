@@ -590,29 +590,29 @@ Ensure that authentication token renewal is implemented both correctly and effic
 // 
 //         ],
 //         achievements:[]
-      },
-      f: {
-        jobtitle: "Bachelor of Science in Computer Science and Engineering",
-        employer: "The Ohio State University",
-        location: {
-          city: "Columbus",
-          state: "Ohio",
-          country: "USA"
-        },
-        period: {
-          from: {
-            date: {
-              month: "3",
-              year: "2002"
-            }
-          },
-          to: {
-            date: {
-              month: "12",
-              year: "2004"
-            }
-          }
-        },
+//       },
+      // f: {
+//         jobtitle: "Bachelor of Science in Computer Science and Engineering",
+//         employer: "The Ohio State University",
+//         location: {
+//           city: "Columbus",
+//           state: "Ohio",
+//           country: "USA"
+//         },
+//         period: {
+//           from: {
+//             date: {
+//               month: "3",
+//               year: "2002"
+//             }
+//           },
+//           to: {
+//             date: {
+//               month: "12",
+//               year: "2004"
+//             }
+//           }
+//         },
         // description: "I return to school full-time to complete the last two years of college. In addition to my major, my GEC course contains a concentration of my interest in Economics.",
 //         projects: {
 //           project1: {
@@ -644,28 +644,28 @@ Ensure that authentication token renewal is implemented both correctly and effic
 //             description: "Use C/C++ to implement numerical algorithms that are use to generate 3D images."
 //           }
 //         }
-      },
-      jobg: {
-        jobtitle: "Senior Software Developer",
-        employer: "Ultryx, Inc",
-        location: {
-          city: "Columbus",
-          state: "Ohio"
-        },
-        period: {
-          from: {
-            date: {
-              month: "1",
-              year: "2000"
-            }
-          },
-          to: {
-            date: {
-              month: "2",
-              year: "2002"
-            }
-          }
-        },
+//       },
+//       jobg: {
+//         jobtitle: "Senior Software Developer",
+//         employer: "Ultryx, Inc",
+//         location: {
+//           city: "Columbus",
+//           state: "Ohio"
+//         },
+//         period: {
+//           from: {
+//             date: {
+//               month: "1",
+//               year: "2000"
+//             }
+//           },
+//           to: {
+//             date: {
+//               month: "2",
+//               year: "2002"
+//             }
+//           }
+//         },
         // description: {
 //           para1: "Ultryx Corporation delivers Enterprise Channel Management (ECM) software and services to global manufacturers. UltryxChannels(TM) solutions enable manufacturers to quickly and flexibly integrate their back-office systems with channel specific business processes to increase operating margins, reduce cycle times, and improve customer service.",
 // //          para2: "Founded in 1984, Ultryx Corporation is privately held and is based in Columbus, Ohio. Over 300 manufacturers in 53 countries employ Ultryx software solutions in their operations. For more information, visit www.ultryx.com.",
@@ -689,28 +689,28 @@ Ensure that authentication token renewal is implemented both correctly and effic
 //         achievements: [
 //           "Lead the transition from Microsoft to Java development environment.",
 //           "Mentor junior developers in Java development. Perform code review, document best practices, establish coding standards."]
-      },
-      jobh: {
-        jobtitle: "Software Developer",
-        employer: "Core Solutions",
-        location: {
-          city: "Columbus",
-          state: "Ohio"
-        },
-        period: {
-          from: {
-            date: {
-              month: "2",
-              year: "1997"
-            }
-          },
-          to: {
-            date: {
-              month: "12",
-              year: "1999"
-            }
-          }
-        },
+//       },
+//       jobh: {
+//         jobtitle: "Software Developer",
+//         employer: "Core Solutions",
+//         location: {
+//           city: "Columbus",
+//           state: "Ohio"
+//         },
+//         period: {
+//           from: {
+//             date: {
+//               month: "2",
+//               year: "1997"
+//             }
+//           },
+//           to: {
+//             date: {
+//               month: "12",
+//               year: "1999"
+//             }
+//           }
+//         },
         // projects: {
 //           project1: {
 //             title: "CertainCert",
@@ -721,56 +721,56 @@ Ensure that authentication token renewal is implemented both correctly and effic
 //             description: "Implemented asset recovery system for BMW Financial Service using Visual Basic and MS SQL Server. All data access from Visual Basic component is done by invoking stored procedures written using TSQL in SQL Server."
 //           }
 //         }
-      },
-      jobi: {
-        jobtitle: "Software Developer",
-        employer: "DM2 Solutions",
-        location: {
-          city: "Columbus",
-          state: "Ohio"
-        },
-        period: {
-          from: {
-            date: {
-              month: "8",
-              year: "1995"
-            }
-          },
-          to: {
-            date: {
-              month: "1",
-              year: "1997"
-            }
-          }
-        },
+//       },
+//       jobi: {
+//         jobtitle: "Software Developer",
+//         employer: "DM2 Solutions",
+//         location: {
+//           city: "Columbus",
+//           state: "Ohio"
+//         },
+//         period: {
+//           from: {
+//             date: {
+//               month: "8",
+//               year: "1995"
+//             }
+//           },
+//           to: {
+//             date: {
+//               month: "1",
+//               year: "1997"
+//             }
+//           }
+//         },
         // projects: {
 //           project: {
 //             title: "Multimedia",
 //             description: "Setup and administrated Web server.  Created CGI scripts for various functions including tracking web site traffic and web interface to view and edit databases records. Created multimedia CBT using Macromedia Director and database applications using FileMaker Pro."
 //           }
 //         }
-      },
-      jobj: {
-        jobtitle: "Software Developer High School Internship",
-        employer: "DM2 Solutions",
-        location: {
-          city: "Columbus",
-          state: "Ohio"
-        },
-        period: {
-          from: {
-            date: {
-              month: "6",
-              year: "1995"
-            }
-          },
-          to: {
-            date: {
-              month: "8",
-              year: "1995"
-            }
-          }
-        },
+//       },
+//       jobj: {
+//         jobtitle: "Software Developer High School Internship",
+//         employer: "DM2 Solutions",
+//         location: {
+//           city: "Columbus",
+//           state: "Ohio"
+//         },
+//         period: {
+//           from: {
+//             date: {
+//               month: "6",
+//               year: "1995"
+//             }
+//           },
+//           to: {
+//             date: {
+//               month: "8",
+//               year: "1995"
+//             }
+//           }
+//         },
         // projects: {
 //           project: {
 //             title: "Intern",
