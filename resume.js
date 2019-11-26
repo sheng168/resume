@@ -222,6 +222,31 @@ function ResumeCtrl($scope) {
     ],
 
     history: {
+      _t: {
+        jobtitle:'Sr Software Engineer',
+        employer:'Clearme.com',
+        location:{
+          city: 'New York',
+          state: 'NY'
+        },
+        period:{
+          from: {
+            date: {
+              month: "7",
+              year: "2018"
+            }
+          },
+          to: {
+            date: {
+            }
+          },
+        },
+        description:[
+          'JVM micro services using Java/Kotlin, Dropwizard, Kafka, Docker, AWS. \
+          '],
+        projects:[
+        ],
+      },
       _x: {
         jobtitle:'Sr Software Engineer',
         employer:'Catchpoint',
