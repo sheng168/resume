@@ -14,7 +14,7 @@ val resume = Resume(
                 ),
                 contact = Resume.Header.Contact(
                         phone = "347-688-JAVA(5282)",
-                        email = "career18@jsy.us"
+                        email = "career19@jsy.us"
                 )
         ),
 
@@ -23,7 +23,7 @@ val resume = Resume(
     where I can practice my craft and learn as well as teach.""",
 
                 """My current interests include Android and iOS mobile application development,
-    the Java, Kotlin, Swfit and Scala programming languages, open-source development(https://github.com/sheng168),
+    the Java, Kotlin, Swift and Scala programming languages, open-source development(https://github.com/sheng168),
     high throughput and low latency architecture
     and API design(https://bitbucket.org/sheng/parsefacade)."""),
 
@@ -861,7 +861,5 @@ val resume = Resume(
                         month = "7",
                         year = "2018"
                 )
-        ),
-
-        last = 0
+        )
 )
