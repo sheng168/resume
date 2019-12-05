@@ -1,86 +1,86 @@
 val resume = Resume(
-    header = Resume.Header(
-            name = Resume.Header.Name(
+        header = Resume.Header(
+                name = Resume.Header.Name(
 //        title = "Mr.",
-                    firstname = "Jin",
-            middlenames = "S",
-            surname = "Yu"
-    ),
-        address = Resume.Header.Address(
-        street = "6434 102nd St, Apt 3K",
-        city = "Rego Park",
-        state = "NY",
-        zip = "11374"
-    ),
-        contact = Resume.Header.Contact(
-        phone = "347-688-JAVA(5282)",
-        email = "career18@jsy.us"
-    )
-    ),
+                        firstname = "Jin",
+                        middlenames = "S",
+                        surname = "Yu"
+                ),
+                address = Resume.Header.Address(
+                        street = "6434 102nd St, Apt 3K",
+                        city = "Rego Park",
+                        state = "NY",
+                        zip = "11374"
+                ),
+                contact = Resume.Header.Contact(
+                        phone = "347-688-JAVA(5282)",
+                        email = "career18@jsy.us"
+                )
+        ),
 
-    objective = arrayOf(
-    """Seeking a software engineering position in a creative and collaborative environment \
+        objective = arrayOf(
+                """Seeking a software engineering position in a creative and collaborative environment 
     where I can practice my craft and learn as well as teach.""",
 
-    """My current interests include Android and iOS mobile application development,\
-    the Java, Kotlin, Swfit and Scala programming languages, open-source development(https://github.com/sheng168),\
-    high throughput and low latency architecture\
+                """My current interests include Android and iOS mobile application development,
+    the Java, Kotlin, Swfit and Scala programming languages, open-source development(https://github.com/sheng168),
+    high throughput and low latency architecture
     and API design(https://bitbucket.org/sheng/parsefacade)."""),
 
-    skillarea = arrayOf(
-            Resume.Skillarea(
-                title = "Software Skills",
+        skillarea = arrayOf(
+                Resume.Skillarea(
+                        title = "Software Skills",
 
-                skillset = arrayOf(
-                Resume.Skillarea.Skillset(
-                    title = "Programming Languages",
-                    skill = arrayOf(
-                    "Java",
-                    "Kotlin",
-                    "Scala",
-                    "Swift",
-                    "Objective C",
-                    "C# .Net",
-                    "JavaScript",
-                    "TypeScript"
-                    )
-                ),
-                        Resume.Skillarea.Skillset(
-                    title = "Archive Languages",
-                    skill = arrayOf(
-                    "Object Pascal (Delphi)",
-                    "C/C++",
-                    "Visual Basic",
-                    "SQL",
-                    "MIPS assembly",
-                    "SPARC assembly",
-                    "Motorola micro-controller assembly",
-                    "HyperTalk",
-                    "AppleScript",
-                    "Shell scripting"
-                    )
-                ),
-                        Resume.Skillarea.Skillset(
-                    title = "Java",
-                    skill = arrayOf(
-                    "Java Programming Language",
+                        skillset = arrayOf(
+                                Resume.Skillarea.Skillset(
+                                        title = "Programming Languages",
+                                        skill = arrayOf(
+                                                "Java",
+                                                "Kotlin",
+                                                "Scala",
+                                                "Swift",
+                                                "Objective C",
+                                                "C# .Net",
+                                                "JavaScript",
+                                                "TypeScript"
+                                        )
+                                ),
+                                Resume.Skillarea.Skillset(
+                                        title = "Archive Languages",
+                                        skill = arrayOf(
+                                                "Object Pascal (Delphi)",
+                                                "C/C++",
+                                                "Visual Basic",
+                                                "SQL",
+                                                "MIPS assembly",
+                                                "SPARC assembly",
+                                                "Motorola micro-controller assembly",
+                                                "HyperTalk",
+                                                "AppleScript",
+                                                "Shell scripting"
+                                        )
+                                ),
+                                Resume.Skillarea.Skillset(
+                                        title = "Java",
+                                        skill = arrayOf(
+                                                "Java Programming Language",
 //               "JVM Architecture",
 //               "Memory Model",
-                    "Threading/Synchronization",
-                    "JDBC",
+                                                "Threading/Synchronization",
+                                                "JDBC",
 //               "RMI",
-                    "java.io",
-                    "java.net",
-                    "Collections",
-                    "Reflection API",
+                                                "java.io",
+                                                "java.net",
+                                                "Collections",
+                                                "Reflection API",
 //               "JavaBean",
-                    "Servlets and JSP",
-                    "JMS",
-                    "Spring",
-                    "Swing/AWT"
-                    )
-                ),
-                // (
+                                                "Servlets and JSP",
+                                                "JMS",
+                                                "Spring",
+                                                "Swing/AWT"
+                                        )
+                                ),
+                                // (
 //             title = "Google",
 //             skill = arrayOf(
 //               "Android APIs",
@@ -88,38 +88,38 @@ val resume = Resume(
 //               "AppEngine(Python and Java)"
 //             )
 //           ),
-                        Resume.Skillarea.Skillset(
-                    title = "Software Design",
-                    skill = arrayOf(
-                    "Object Oriented Design and Analysis",
-                    "Design Patterns",
-                    "UML Modeling",
-                    "Use Case",
-                    "Sequence Diagram"
-                    )
-                ),
-                        Resume.Skillarea.Skillset(
-                    title = "Operating Systems",
-                    skill = arrayOf(
-                    "Mac OS X",
-                    "UNIX (Linux and Solaris)",
-                    "Windows",
-                    "BeOS"
-                    )
-                ),
-                        Resume.Skillarea.Skillset(
-                    title = "Database Management",
-                    skill = arrayOf(
-                    "Oracle",
-                    "IBM DB2",
-                    "MS SQL Server and TSQL",
-                    "SQLite",
-                    "Access",
-                    "FileMaker Pro"
+                                Resume.Skillarea.Skillset(
+                                        title = "Software Design",
+                                        skill = arrayOf(
+                                                "Object Oriented Design and Analysis",
+                                                "Design Patterns",
+                                                "UML Modeling",
+                                                "Use Case",
+                                                "Sequence Diagram"
+                                        )
+                                ),
+                                Resume.Skillarea.Skillset(
+                                        title = "Operating Systems",
+                                        skill = arrayOf(
+                                                "Mac OS X",
+                                                "UNIX (Linux and Solaris)",
+                                                "Windows",
+                                                "BeOS"
+                                        )
+                                ),
+                                Resume.Skillarea.Skillset(
+                                        title = "Database Management",
+                                        skill = arrayOf(
+                                                "Oracle",
+                                                "IBM DB2",
+                                                "MS SQL Server and TSQL",
+                                                "SQLite",
+                                                "Access",
+                                                "FileMaker Pro"
 //               "WebFM"
-                    )
-                ),
-                // (
+                                        )
+                                ),
+                                // (
 //             title = "Web",
 //             skill = arrayOf(
 //               "AngularJS",
@@ -137,7 +137,7 @@ val resume = Resume(
 //               "CGI development"
 //             )
 //           ),
-                // (
+                                // (
 //             title = "Multimedia",
 //             skill = arrayOf(
 //               "Macromedia Director",
@@ -147,31 +147,31 @@ val resume = Resume(
 //               "OpenGL"
 //             )
 //           ),
-                        Resume.Skillarea.Skillset(
-                    title = "Development Environments",
-                    skill = arrayOf(
-                    "Eclipse",
-                    "JetBrains",
-                    "NetBeans",
+                                Resume.Skillarea.Skillset(
+                                        title = "Development Environments",
+                                        skill = arrayOf(
+                                                "Eclipse",
+                                                "JetBrains",
+                                                "NetBeans",
 //               "Borland JBuilder",
-                    "Xcode",
-                    "Microsoft Visual Studio",
+                                                "Xcode",
+                                                "Microsoft Visual Studio",
 //               "IBM VisualAge for Java",
 //               "J2EE",
 //               "IBM WebSphere",
 //               "BEA Weblogic",
 //               "Apache Tomcat",
 //               "Borland Delphi",
-                    "GIT",
-                    "Subversion(SVN)"
+                                                "GIT",
+                                                "Subversion(SVN)"
 //               "SourceSafe",
 //               "PVCS",
 //               "Metrowerks IDE (C/C++) for Macintosh",
 //               "Script Debugger for AppleScript"
-                    )
-                )
-                )
-            ),
+                                        )
+                                )
+                        )
+                ),
 //       (
 //         title = "Hardware",
 // 
@@ -200,169 +200,169 @@ val resume = Resume(
 //         )
 //       ),
 
-            Resume.Skillarea(
-                title = "Finance",
+                Resume.Skillarea(
+                        title = "Finance",
 
-                skillset = arrayOf(
-                        Resume.Skillarea.Skillset(
-                    title = "Finance",
-                    skill = arrayOf(
-                    "Equities",
-                    "Options",
-                    "Futures",
-                    "FIX format",
-                    "Micro and Macro Economics",
-                    "Economics History",
-                    "Banking System"
-                    )
+                        skillset = arrayOf(
+                                Resume.Skillarea.Skillset(
+                                        title = "Finance",
+                                        skill = arrayOf(
+                                                "Equities",
+                                                "Options",
+                                                "Futures",
+                                                "FIX format",
+                                                "Micro and Macro Economics",
+                                                "Economics History",
+                                                "Banking System"
+                                        )
+                                )
+                        )
                 )
-                )
-            )
-    ),
+        ),
 
-    history = arrayOf(
-        Resume.History(
-        jobtitle = "Sr Software Engineer",
-        employer = "Clearme.com",
-        location = Location(
-        city = "New York",
-        state = "NY"
-    ),
-        period = Period(
-        from = Period.From(
-        date = Date(
-        month = "7",
-        year = "2018"
-    )
-    ),
-        to = Period.To(
-        date = Date(
-    )
-    )
-    ),
-        description = arrayOf(
-        "JVM micro services using Java/Kotlin, Dropwizard, Kafka, Docker, AWS. "),
-        projects = arrayOf(
-        )
-    ),
-        Resume.History(
-        jobtitle = "Sr Software Engineer",
-        employer = "Catchpoint",
-        location = Location(
-        city = "New York",
-        state = "NY"
-    ),
-        period = Period(
-        from = Period.From(
-        date = Date(
-        month = "1",
-        year = "2016"
-    )
-    ),
-        to = Period.To(
-        date = Date(
-        month = "4",
-        year = "2018"
-    )
-    )
-    ),
-        description = arrayOf(
-        """As a member of the Agent team, Maintain and enhance the network monitoring SaaS product. 
+        history = arrayOf(
+                Resume.History(
+                        jobtitle = "Sr Software Engineer",
+                        employer = "Clearme.com",
+                        location = Location(
+                                city = "New York",
+                                state = "NY"
+                        ),
+                        period = Period(
+                                from = Period.From(
+                                        date = Date(
+                                                month = "7",
+                                                year = "2018"
+                                        )
+                                ),
+                                to = Period.To(
+                                        date = Date(
+                                        )
+                                )
+                        ),
+                        description = arrayOf(
+                                "JVM micro services using Java/Kotlin, Dropwizard, Kafka, Docker, AWS. "),
+                        projects = arrayOf(
+                        )
+                ),
+                Resume.History(
+                        jobtitle = "Sr Software Engineer",
+                        employer = "Catchpoint",
+                        location = Location(
+                                city = "New York",
+                                state = "NY"
+                        ),
+                        period = Period(
+                                from = Period.From(
+                                        date = Date(
+                                                month = "1",
+                                                year = "2016"
+                                        )
+                                ),
+                                to = Period.To(
+                                        date = Date(
+                                                month = "4",
+                                                year = "2018"
+                                        )
+                                )
+                        ),
+                        description = arrayOf(
+                                """As a member of the Agent team, Maintain and enhance the network monitoring SaaS product. 
         Triage bug reports, fix software defects and develop new features. 
         Estimate development effects for backlog tasks. Perform R&D to determine feasibility and break down large tasks. 
         Evaluate software libraries for inclusion in our projects. Perform code reviews and production support."""),
-        projects = arrayOf(
-        Resume.History.Project(
-            title = "Agent 2.0 Rewrite",
-            description = "Contribute my experience to this major effort to reimplement our core product. Advocate for finding simple designs to our problems; using a limited number of well know features to compose our solution."
-        ),
-                Resume.History.Project(
-            title = "Antlr Grammar",
-            description = "Create a grammar to replace the existing hand-written parser for test scripts."
-        ),
-                Resume.History.Project(
-            title = "Safari Mobile",
-            description = """Port Agent software from Windows/Linux to MacOS using mainly C# and .Net in Visual Studio and Xamarin Studio.
+                        projects = arrayOf(
+                                Resume.History.Project(
+                                        title = "Agent 2.0 Rewrite",
+                                        description = "Contribute my experience to this major effort to reimplement our core product. Advocate for finding simple designs to our problems; using a limited number of well know features to compose our solution."
+                                ),
+                                Resume.History.Project(
+                                        title = "Antlr Grammar",
+                                        description = "Create a grammar to replace the existing hand-written parser for test scripts."
+                                ),
+                                Resume.History.Project(
+                                        title = "Safari Mobile",
+                                        description = """Port Agent software from Windows/Linux to MacOS using mainly C# and .Net in Visual Studio and Xamarin Studio.
             Instrument Safari Mobile in simulator and real device to measure network activity while performing automated testing."""
-        ),
-                Resume.History.Project(
-            title = "Java Client for REST API",
-            description = """Create the Java client library for our REST API. 
+                                ),
+                                Resume.History.Project(
+                                        title = "Java Client for REST API",
+                                        description = """Create the Java client library for our REST API. 
             Ensure that authentication token renewal is implemented both correctly and efficiently."""
-        )
-        )
-    ),
-        Resume.History(
-        jobtitle = "Lead Mobile SDK Engineer",
-        employer = "RealNetworks",
-        location = Location(
-        city = "New York",
-        state = "NY"
-    ),
-        period = Period(
-        from = Period.From(
-        date = Date(
-        // 11
-        month = "4",
-        year = "2015"
-    )
-    ),
-        to = Period.To(
-        date = Date(
-        // 11
-        month = "11",
-        year = "2015"
-    )
-    )
+                                )
+                        )
+                ),
+                Resume.History(
+                        jobtitle = "Lead Mobile SDK Engineer",
+                        employer = "RealNetworks",
+                        location = Location(
+                                city = "New York",
+                                state = "NY"
+                        ),
+                        period = Period(
+                                from = Period.From(
+                                        date = Date(
+                                                // 11
+                                                month = "4",
+                                                year = "2015"
+                                        )
+                                ),
+                                to = Period.To(
+                                        date = Date(
+                                                // 11
+                                                month = "11",
+                                                year = "2015"
+                                        )
+                                )
 //           to = "Present"
-    ),
-        description = arrayOf(
-        "Responsible for the development of mobile SDK."),
-        projects = arrayOf(
-                Resume.History.Project(
-            title = "RealCloud SDK",
-            description = """Develop Android SDK while managing contractor to develop iOS SDK. 
+                        ),
+                        description = arrayOf(
+                                "Responsible for the development of mobile SDK."),
+                        projects = arrayOf(
+                                Resume.History.Project(
+                                        title = "RealCloud SDK",
+                                        description = """Develop Android SDK while managing contractor to develop iOS SDK. 
             Allow third-party apps to have easy access to RealPlayer Cloud data store via REST API.
             We settled on building our SDK on top of Retrofit and OkHttp to allow use to 
             use type-safe Java interfaces to map to our REST API and perform client side 
             transformations to fix inconsistencies."""
-        ),
-                Resume.History.Project(
-            title = "RealTimes SDK",
-            description = """Polish private API for public consumption allowing third-party apps 
+                                ),
+                                Resume.History.Project(
+                                        title = "RealTimes SDK",
+                                        description = """Polish private API for public consumption allowing third-party apps 
             to generate video stories by supplying their own content."""
-        )
-        )
+                                )
+                        )
 //         achievements = arrayOf(
 //           "Successfully developed and deployed cross-platform mobile application to Android, iOS and Web",
 //           "Lead development of Android and iOS XMPP client",
 //           "Implement SMPP client and server that is capable of saturating gigabit ethernet",
 //           "Train new development team members by documenting application code, creating diagrams, performing code review and prividing hands-on training"
 //         )
-    ),
-        Resume.History(
-        jobtitle = "US Integration Lead Engineer",
-        employer = "Algomi",
-        location = Location(
-        city = "New York",
-        state = "NY"
-    ),
-        period = Period(
-        from = Period.From(
-        date = Date(
-        month = "8",
-        year = "2014"
-    )
-    ),
-        to = Period.To(
-        date = Date(
-        month = "4",
-        year = "2015"
-    )
-    )
-    ),
-        description = arrayOf(
-        """Responsible for the deployment of Algomi platform to client environment. 
+                ),
+                Resume.History(
+                        jobtitle = "US Integration Lead Engineer",
+                        employer = "Algomi",
+                        location = Location(
+                                city = "New York",
+                                state = "NY"
+                        ),
+                        period = Period(
+                                from = Period.From(
+                                        date = Date(
+                                                month = "8",
+                                                year = "2014"
+                                        )
+                                ),
+                                to = Period.To(
+                                        date = Date(
+                                                month = "4",
+                                                year = "2015"
+                                        )
+                                )
+                        ),
+                        description = arrayOf(
+                                """Responsible for the deployment of Algomi platform to client environment. 
         Work with sales team to communicate technical architecture and integration requirements.""")
 //         projects = arrayOf(
 //           (
@@ -376,86 +376,86 @@ val resume = Resume(
 //         achievements = arrayOf(
 //           "Improve connectivity to London headquarter by setting up VPN tunnel for entire office to replace individual VPN sessions from each client machine.",
 //         )
-    ),
-        Resume.History(
-        jobtitle = "Lead Development Engineer",
-        employer = "RealNetworks",
-        location = Location(
-        city = "New York",
-        state = "NY"
-    ),
-        period = Period(
-        from = Period.From(
-        date = Date(
-        month = "4",
-        year = "2011"
-    )
-    ),
-        to = Period.To(
-        date = Date(
-        month = "8",
-        year = "2014"
-    )
-    )
-    ),
-        description = arrayOf(
-        "Responsible for the development of new applications with mobile, desktop and server components."),
-        projects = arrayOf(
-                Resume.History.Project(
-            title = "Abeona",
-            description = """Develop mobile application for parents to monitor child"s usage of Android device.
+                ),
+                Resume.History(
+                        jobtitle = "Lead Development Engineer",
+                        employer = "RealNetworks",
+                        location = Location(
+                                city = "New York",
+                                state = "NY"
+                        ),
+                        period = Period(
+                                from = Period.From(
+                                        date = Date(
+                                                month = "4",
+                                                year = "2011"
+                                        )
+                                ),
+                                to = Period.To(
+                                        date = Date(
+                                                month = "8",
+                                                year = "2014"
+                                        )
+                                )
+                        ),
+                        description = arrayOf(
+                                "Responsible for the development of new applications with mobile, desktop and server components."),
+                        projects = arrayOf(
+                                Resume.History.Project(
+                                        title = "Abeona",
+                                        description = """Develop mobile application for parents to monitor child"s usage of Android device.
             All data is store using a popular backend-as-a-service.
             Parents receive real-time activity stream and can update child"s device configuration
             via push notifications."""
-        ),
-                Resume.History.Project(
-            title = "Mobile Messaging Application",
-            description = "Develop Android and iOS messaging applications using XMPP and OpenFire server."
-        ),
-            Resume.History.Project(
-            title = "Mobile Twitter Application",
-            description = "Develop location-based messaging using Twitter API."
-        ),
-        Resume.History.Project(
-            title = "Server Application",
-            description = "Develop server application using SMPP for inter-carrier messaging."
-        )
-        ),
-        achievements = arrayOf(
-        "Successfully developed and deployed cross-platform mobile application to Android, iOS and Web",
-        "Lead development of Android and iOS XMPP client",
-        "Implement SMPP client and server that is capable of saturating gigabit ethernet",
-        "Train new development team members by documenting application code, creating diagrams, performing code review and prividing hands-on training"
-        )
-    ),
-        Resume.History(
-        jobtitle = "Senior Software Developer",
-        employer = "Merrill Lynch",
-        location = Location(
-        city = "New York",
-        state = "NY"
-    ),
-        period = Period(
-        from = Period.From(
-        date = Date(
-        // 11
-        month = "11",
-        year = "2006"
-    )
-    ),
-        to = Period.To(
-        date = Date(
-        // 11
-        month = "8",
-        year = "2010"
-    )
-    )
-    ),
-        description = arrayOf("Maintain and create applications to support trading platform."),
-        projects = arrayOf(
-                Resume.History.Project(
-            title = "Server Applications",
-            description = """Create Drop Copy server application that process FIX message in near-realtime from Tibrv and send to clients via MQueue.
+                                ),
+                                Resume.History.Project(
+                                        title = "Mobile Messaging Application",
+                                        description = "Develop Android and iOS messaging applications using XMPP and OpenFire server."
+                                ),
+                                Resume.History.Project(
+                                        title = "Mobile Twitter Application",
+                                        description = "Develop location-based messaging using Twitter API."
+                                ),
+                                Resume.History.Project(
+                                        title = "Server Application",
+                                        description = "Develop server application using SMPP for inter-carrier messaging."
+                                )
+                        ),
+                        achievements = arrayOf(
+                                "Successfully developed and deployed cross-platform mobile application to Android, iOS and Web",
+                                "Lead development of Android and iOS XMPP client",
+                                "Implement SMPP client and server that is capable of saturating gigabit ethernet",
+                                "Train new development team members by documenting application code, creating diagrams, performing code review and prividing hands-on training"
+                        )
+                ),
+                Resume.History(
+                        jobtitle = "Senior Software Developer",
+                        employer = "Merrill Lynch",
+                        location = Location(
+                                city = "New York",
+                                state = "NY"
+                        ),
+                        period = Period(
+                                from = Period.From(
+                                        date = Date(
+                                                // 11
+                                                month = "11",
+                                                year = "2006"
+                                        )
+                                ),
+                                to = Period.To(
+                                        date = Date(
+                                                // 11
+                                                month = "8",
+                                                year = "2010"
+                                        )
+                                )
+                        ),
+                        description = arrayOf("Maintain and create applications to support trading platform."),
+                        projects = arrayOf(
+                                Resume.History.Project(
+                                        title = "Server Applications",
+                                        description = """Create Drop Copy server application that process FIX message in near-realtime from Tibrv and send to clients via MQueue.
             Create server application to allow application messages to be replayed.
             Create server application to capture high volume trading data into MS SQL Server.
             Instructment applications with JMX to enable remote monitoring and configuration change.
@@ -464,45 +464,45 @@ val resume = Resume(
             A data source or destination can be a TIBCO Rendezvous subject, IBM MQueue, TCP connection, JDBC database or JMS.
             Implement fault-tolerant feature using active/inactive process model.
             Replace custom code with open-source component to reduce code size while increasing functionality."""
-        ),
-                Resume.History.Project(
-            title = "Desktop Applications",
-            description = """Take order execution updates from TIBCO Rendezvous and display them in a dynamic Java Swing interface.
+                                ),
+                                Resume.History.Project(
+                                        title = "Desktop Applications",
+                                        description = """Take order execution updates from TIBCO Rendezvous and display them in a dynamic Java Swing interface.
             Read updates from TCP connection and display them in a table component within a Java Applet.
             Both applications use multiple threads to perform background operations to keep user interface responsive.          """
-        )
-        ),
-        achievements = arrayOf(
-        "Reduce message processing latency by 80% from 50ms to 10ms by implementing straight-through processing",
-        "Eliminate 30 minute end-of-day message backlog by increasing throughput to keep up with incoming message burst",
-        "Increase application reliability by fixing threading bugs and memory leaks",
-        "Simplify software while adding functionality by factoring out shared code across projects"
-        )
-    ),
-        Resume.History(
-        jobtitle = "Senior Systems Engineer",
-        employer = "Crispwireless",
-        location = Location(
-        city = "New York",
-        state = "NY"
-    ),
-        period = Period(
-        from = Period.From(
-        date = Date(
-        // 11
-        month = "3",
-        year = "2006"
-    )
-    ),
-        to = Period.To(
-        date = Date(
-        // 11
-        month = "9",
-        year = "2006"
-    )
-    )
-    )
-        // description = arrayOf("Crisp Wireless provides innovative mobile content management solutions enabling consumer-facing companies to deliver rich media content and engaging applications for revenue generation, brand promotion, and customer loyalty."),
+                                )
+                        ),
+                        achievements = arrayOf(
+                                "Reduce message processing latency by 80% from 50ms to 10ms by implementing straight-through processing",
+                                "Eliminate 30 minute end-of-day message backlog by increasing throughput to keep up with incoming message burst",
+                                "Increase application reliability by fixing threading bugs and memory leaks",
+                                "Simplify software while adding functionality by factoring out shared code across projects"
+                        )
+                ),
+                Resume.History(
+                        jobtitle = "Senior Systems Engineer",
+                        employer = "Crispwireless",
+                        location = Location(
+                                city = "New York",
+                                state = "NY"
+                        ),
+                        period = Period(
+                                from = Period.From(
+                                        date = Date(
+                                                // 11
+                                                month = "3",
+                                                year = "2006"
+                                        )
+                                ),
+                                to = Period.To(
+                                        date = Date(
+                                                // 11
+                                                month = "9",
+                                                year = "2006"
+                                        )
+                                )
+                        )
+                        // description = arrayOf("Crisp Wireless provides innovative mobile content management solutions enabling consumer-facing companies to deliver rich media content and engaging applications for revenue generation, brand promotion, and customer loyalty."),
 //         projects = arrayOf(
 //           (
 //             title = "Tribune Media",
@@ -538,29 +538,29 @@ val resume = Resume(
 //             replacing original ad-hoc string search and replace solution that requires
 //             constant updating."
 //         )
-    ),
-        Resume.History(
-        jobtitle = "Senior Systems Consultant",
-        employer = "SOFT Inc",
-        location = Location(
-        city = "New York",
-        state = "NY"
-    ),
-        period = Period(
-        from = Period.From(
-        date = Date(
-        month = "9",
-        year = "2005"
-    )
-    ),
-        to = Period.To(
-        date = Date(
-        month = "12",
-        year = "2005"
-    )
-    )
-    )
-        // description = arrayOf("A technology consulting firm, building and refining critical computer
+                ),
+                Resume.History(
+                        jobtitle = "Senior Systems Consultant",
+                        employer = "SOFT Inc",
+                        location = Location(
+                                city = "New York",
+                                state = "NY"
+                        ),
+                        period = Period(
+                                from = Period.From(
+                                        date = Date(
+                                                month = "9",
+                                                year = "2005"
+                                        )
+                                ),
+                                to = Period.To(
+                                        date = Date(
+                                                month = "12",
+                                                year = "2005"
+                                        )
+                                )
+                        )
+                        // description = arrayOf("A technology consulting firm, building and refining critical computer
 //           technology solutions for major clients since 1981."),
 //         projects = arrayOf(
 //           (
@@ -575,29 +575,29 @@ val resume = Resume(
 // 
 //         ),
 //         achievements = arrayOf()
-    ),
-        Resume.History(
-                jobtitle = "Professional Staff Software Developer",
-                employer = "SRA International",
-                location = Location(
-                        city = "Fairfax",
-                        state = "VA"
                 ),
-                period = Period(
-                        from = Period.From(
-                                date = Date(
-                                        month = "1",
-                                        year = "2005"
-                                )
+                Resume.History(
+                        jobtitle = "Professional Staff Software Developer",
+                        employer = "SRA International",
+                        location = Location(
+                                city = "Fairfax",
+                                state = "VA"
                         ),
-                        to = Period.To(
-                                date = Date(
-                                        month = "9",
-                                        year = "2005"
+                        period = Period(
+                                from = Period.From(
+                                        date = Date(
+                                                month = "1",
+                                                year = "2005"
+                                        )
+                                ),
+                                to = Period.To(
+                                        date = Date(
+                                                month = "9",
+                                                year = "2005"
+                                        )
                                 )
                         )
-                )
-                // description = arrayOf("SRA is a leading provider of information technology services and
+                        // description = arrayOf("SRA is a leading provider of information technology services and
 //             solutions - including strategic consulting; systems design, development
 //   and integration; and outsourcing and operations management - to clients
 //   in national security, civil government, and health care and public health."),
@@ -613,7 +613,7 @@ val resume = Resume(
 //         ),
 //         achievements = arrayOf()
 //       ),
-                // f = (
+                        // f = (
 //         jobtitle = "Bachelor of Science in Computer Science and Engineering",
 //         employer = "The Ohio State University",
 //         location = Location(
@@ -635,7 +635,7 @@ val resume = Resume(
 //             )
 //           )
 //         ),
-                // description = "I return to school full-time to complete the last two years of college. In addition to my major, my GEC course contains a concentration of my interest in Economics.",
+                        // description = "I return to school full-time to complete the last two years of college. In addition to my major, my GEC course contains a concentration of my interest in Economics.",
 //         projects = (
 //           project1 = (
 //             title = "Capstone Project",
@@ -688,13 +688,13 @@ val resume = Resume(
 //             )
 //           )
 //         ),
-                // description = (
+                        // description = (
 //           para1 = "Ultryx Corporation delivers Enterprise Channel Management (ECM) software and services to global manufacturers. UltryxChannels(TM) solutions enable manufacturers to quickly and flexibly integrate their back-office systems with channel specific business processes to increase operating margins, reduce cycle times, and improve customer service.",
 // //          para2 = "Founded in 1984, Ultryx Corporation is privately held and is based in Columbus, Ohio. Over 300 manufacturers in 53 countries employ Ultryx software solutions in their operations. For more information, visit www.ultryx.com.",
 // //          para3 = "UltryxChannels(TM) is a registered trademark of Ultryx Corporation.",
 //           para4 = "Note = Ultryx was an Internet startup that is not longer in operation."
 //         ),
-                // projects = (
+                        // projects = (
 //           project1 = (
 //             title = "eCommerce",
 //             description = "Worked in the product team to create web application framework including membership, preference, privilege, product catalog, dynamic content components using Java Servlet, JSP, JDBC, EJB and IBM WebSphere. MS SQL Server, Oracle and DB2 databases are supported. Application can be deployed with IIS or Apache user respective plugin."
@@ -733,7 +733,7 @@ val resume = Resume(
 //             )
 //           )
 //         ),
-                // projects = (
+                        // projects = (
 //           project1 = (
 //             title = "CertainCert",
 //             description = "Developed, maintained and enhanced insurance certificate tracking product base on customer request and feedback using Borland Delphi version 1 to 4.  The product works both in desktop mode using Microsoft Access and client-server mode using MS SQL Server. Created online software licensing system including verification of user credentials and online software key generation using Java Servlet and JDBC. Serve as top level of technical support. Verify software bugs by creating customer environment including importing customer data. Fix bugs in software product and create updates for affected customers."
@@ -765,7 +765,7 @@ val resume = Resume(
 //             )
 //           )
 //         ),
-                // projects = (
+                        // projects = (
 //           project = (
 //             title = "Multimedia",
 //             description = "Setup and administrated Web server.  Created CGI scripts for various functions including tracking web site traffic and web interface to view and edit databases records. Created multimedia CBT using Macromedia Director and database applications using FileMaker Pro."
@@ -793,75 +793,75 @@ val resume = Resume(
 //             )
 //           )
 //         ),
-                // projects = (
+                        // projects = (
 //           project = (
 //             title = "Intern",
 //             description = "Helped out in various software projects including custom database implementation, multimedia informational training implementation and testing."
 //           )
 //         )
-        )
-    ),
+                )
+        ),
 
-    awards = Resume.Awards(
-        //      title = "Honors and Recognition",
-        award = Resume.Awards.Award(
-        title = "Dean's List",
-        organization = "The Ohio State University",
-        period = Period(
-        from = Period.From(
-        date = Date(
-        month = "1",
-        year = "2004"
-    )
-    ),
-        to = Period.To(
-        date = Date(
-        month = "12",
-        year = "2004"
-    )
-    )
-    )
-    )
-    ),
+        awards = Resume.Awards(
+                //      title = "Honors and Recognition",
+                award = Resume.Awards.Award(
+                        title = "Dean's List",
+                        organization = "The Ohio State University",
+                        period = Period(
+                                from = Period.From(
+                                        date = Date(
+                                                month = "1",
+                                                year = "2004"
+                                        )
+                                ),
+                                to = Period.To(
+                                        date = Date(
+                                                month = "12",
+                                                year = "2004"
+                                        )
+                                )
+                        )
+                )
+        ),
 
-    academics = Resume.Academics(
-        degrees = Resume.Academics.Degrees(
-        degree = Resume.Academics.Degrees.Degree(
-        level = "B.S.",
-        major = "Computer Science and Engineering",
-        date = Date(
-        month = "12",
-        year = "2004"
-    ),
-        institution = "The Ohio State University",
-        location = Location(
-        city = "Columbus",
-        state = "Ohio"
-    ),
-        gpa = Resume.Academics.Degrees.Degree.Gpa(
-        score = "3.38",
-        possible = "4.00",
-        note = Resume.Academics.Degrees.Degree.Gpa.Note(
-        para = "Major GPA = 3.61 out of 4.00."
-    )
-    )
-    )
-    )
-    ),
+        academics = Resume.Academics(
+                degrees = Resume.Academics.Degrees(
+                        degree = Resume.Academics.Degrees.Degree(
+                                level = "B.S.",
+                                major = "Computer Science and Engineering",
+                                date = Date(
+                                        month = "12",
+                                        year = "2004"
+                                ),
+                                institution = "The Ohio State University",
+                                location = Location(
+                                        city = "Columbus",
+                                        state = "Ohio"
+                                ),
+                                gpa = Resume.Academics.Degrees.Degree.Gpa(
+                                        score = "3.38",
+                                        possible = "4.00",
+                                        note = Resume.Academics.Degrees.Degree.Gpa.Note(
+                                                para = "Major GPA = 3.61 out of 4.00."
+                                        )
+                                )
+                        )
+                )
+        ),
 
-    misc = arrayOf(
-    "Achieve world leading level 72 in Plants vs Zombies Free Vasebreaker Endless on iPhone",
-    "This resume is created and edited as a XML document. XSLT is use to " +
-            "create HTML, plain text or PDF versions with the same content as needed.",
-    "It has been converted to JSON and rendered using AngularJS into HTML."
-    ),
+        misc = arrayOf(
+                "Achieve world leading level 72 in Plants vs Zombies Free Vasebreaker Endless on iPhone",
+                "This resume is created and edited as a XML document. XSLT is use to " +
+                        "create HTML, plain text or PDF versions with the same content as needed.",
+                "It has been converted to JSON and rendered using AngularJS into HTML."
+        ),
 
-    lastModified = Resume.LastModified(
-        date = Date(
-        month = "7",
-        year = "2018"
-    )
-    ),
+        lastModified = Resume.LastModified(
+                date = Date(
+                        month = "7",
+                        year = "2018"
+                )
+        ),
 
-    last = 0
+        last = 0
 )
