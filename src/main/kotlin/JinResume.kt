@@ -224,18 +224,18 @@ val resume = Resume(
         Resume.History(
         jobtitle = "Sr Software Engineer",
         employer = "Clearme.com",
-        location = Resume.History.Location(
+        location = Location(
         city = "New York",
         state = "NY"
     ),
-        period = Resume.History.Period(
-        from = Resume.History.Period.From(
+        period = Period(
+        from = Period.From(
         date = Date(
         month = "7",
         year = "2018"
     )
     ),
-        to = Resume.History.Period.To(
+        to = Period.To(
         date = Date(
     )
     )
@@ -248,18 +248,18 @@ val resume = Resume(
         Resume.History(
         jobtitle = "Sr Software Engineer",
         employer = "Catchpoint",
-        location = Resume.History.Location(
+        location = Location(
         city = "New York",
         state = "NY"
     ),
-        period = Resume.History.Period(
-        from = Resume.History.Period.From(
+        period = Period(
+        from = Period.From(
         date = Date(
         month = "1",
         year = "2016"
     )
     ),
-        to = Resume.History.Period.To(
+        to = Period.To(
         date = Date(
         month = "4",
         year = "2018"
@@ -267,9 +267,9 @@ val resume = Resume(
     )
     ),
         description = arrayOf(
-        """As a member of the Agent team, Maintain and enhance the network monitoring SaaS product. \
-        Triage bug reports, fix software defects and develop new features. \
-        Estimate development effects for backlog tasks. Perform R&D to determine feasibility and break down large tasks. \
+        """As a member of the Agent team, Maintain and enhance the network monitoring SaaS product. 
+        Triage bug reports, fix software defects and develop new features. 
+        Estimate development effects for backlog tasks. Perform R&D to determine feasibility and break down large tasks. 
         Evaluate software libraries for inclusion in our projects. Perform code reviews and production support."""),
         projects = arrayOf(
         Resume.History.Project(
@@ -295,19 +295,19 @@ val resume = Resume(
         Resume.History(
         jobtitle = "Lead Mobile SDK Engineer",
         employer = "RealNetworks",
-        location = Resume.History.Location(
+        location = Location(
         city = "New York",
         state = "NY"
     ),
-        period = Resume.History.Period(
-        from = Resume.History.Period.From(
+        period = Period(
+        from = Period.From(
         date = Date(
         // 11
         month = "4",
         year = "2015"
     )
     ),
-        to = Resume.History.Period.To(
+        to = Period.To(
         date = Date(
         // 11
         month = "11",
@@ -321,15 +321,15 @@ val resume = Resume(
         projects = arrayOf(
                 Resume.History.Project(
             title = "RealCloud SDK",
-            description = """Develop Android SDK while managing contractor to develop iOS SDK. \
-            Allow third-party apps to have easy access to RealPlayer Cloud data store via REST API.\
-            We settled on building our SDK on top of Retrofit and OkHttp to allow use to \
-            use type-safe Java interfaces to map to our REST API and perform client side \
+            description = """Develop Android SDK while managing contractor to develop iOS SDK. 
+            Allow third-party apps to have easy access to RealPlayer Cloud data store via REST API.
+            We settled on building our SDK on top of Retrofit and OkHttp to allow use to 
+            use type-safe Java interfaces to map to our REST API and perform client side 
             transformations to fix inconsistencies."""
         ),
                 Resume.History.Project(
             title = "RealTimes SDK",
-            description = """Polish private API for public consumption allowing third-party apps \
+            description = """Polish private API for public consumption allowing third-party apps 
             to generate video stories by supplying their own content."""
         )
         )
@@ -343,18 +343,18 @@ val resume = Resume(
         Resume.History(
         jobtitle = "US Integration Lead Engineer",
         employer = "Algomi",
-        location = Resume.History.Location(
+        location = Location(
         city = "New York",
         state = "NY"
     ),
-        period = Resume.History.Period(
-        from = Resume.History.Period.From(
+        period = Period(
+        from = Period.From(
         date = Date(
         month = "8",
         year = "2014"
     )
     ),
-        to = Resume.History.Period.To(
+        to = Period.To(
         date = Date(
         month = "4",
         year = "2015"
@@ -362,14 +362,14 @@ val resume = Resume(
     )
     ),
         description = arrayOf(
-        """Responsible for the deployment of Algomi platform to client environment. \
+        """Responsible for the deployment of Algomi platform to client environment. 
         Work with sales team to communicate technical architecture and integration requirements.""")
 //         projects = arrayOf(
 //           (
 //             title = "Abeona",
-//             description = "Develop mobile application for parents to monitor child"s usage of Android device.\
-//             All data is store using a popular backend-as-a-service.\
-//             Parents receive real-time activity stream and can update child"s device configuration\
+//             description = "Develop mobile application for parents to monitor child"s usage of Android device.
+//             All data is store using a popular backend-as-a-service.
+//             Parents receive real-time activity stream and can update child"s device configuration
 //             via push notifications."
 //           ),
 //         ),
@@ -380,18 +380,18 @@ val resume = Resume(
         Resume.History(
         jobtitle = "Lead Development Engineer",
         employer = "RealNetworks",
-        location = Resume.History.Location(
+        location = Location(
         city = "New York",
         state = "NY"
     ),
-        period = Resume.History.Period(
-        from = Resume.History.Period.From(
+        period = Period(
+        from = Period.From(
         date = Date(
         month = "4",
         year = "2011"
     )
     ),
-        to = Resume.History.Period.To(
+        to = Period.To(
         date = Date(
         month = "8",
         year = "2014"
@@ -403,9 +403,9 @@ val resume = Resume(
         projects = arrayOf(
                 Resume.History.Project(
             title = "Abeona",
-            description = """Develop mobile application for parents to monitor child"s usage of Android device.\
-            All data is store using a popular backend-as-a-service.\
-            Parents receive real-time activity stream and can update child"s device configuration\
+            description = """Develop mobile application for parents to monitor child"s usage of Android device.
+            All data is store using a popular backend-as-a-service.
+            Parents receive real-time activity stream and can update child"s device configuration
             via push notifications."""
         ),
                 Resume.History.Project(
@@ -431,19 +431,19 @@ val resume = Resume(
         Resume.History(
         jobtitle = "Senior Software Developer",
         employer = "Merrill Lynch",
-        location = Resume.History.Location(
+        location = Location(
         city = "New York",
         state = "NY"
     ),
-        period = Resume.History.Period(
-        from = Resume.History.Period.From(
+        period = Period(
+        from = Period.From(
         date = Date(
         // 11
         month = "11",
         year = "2006"
     )
     ),
-        to = Resume.History.Period.To(
+        to = Period.To(
         date = Date(
         // 11
         month = "8",
@@ -455,20 +455,20 @@ val resume = Resume(
         projects = arrayOf(
                 Resume.History.Project(
             title = "Server Applications",
-            description = """Create Drop Copy server application that process FIX message in near-realtime from Tibrv and send to clients via MQueue.\
-            Create server application to allow application messages to be replayed.\
-            Create server application to capture high volume trading data into MS SQL Server.\
-            Instructment applications with JMX to enable remote monitoring and configuration change.\
-            Refactor and architect software to into reusable components allowing connections of data sources to\
-            data destinations with flexible processing and threading models.\
-            A data source or destination can be a TIBCO Rendezvous subject, IBM MQueue, TCP connection, JDBC database or JMS.\
-            Implement fault-tolerant feature using active/inactive process model.\
+            description = """Create Drop Copy server application that process FIX message in near-realtime from Tibrv and send to clients via MQueue.
+            Create server application to allow application messages to be replayed.
+            Create server application to capture high volume trading data into MS SQL Server.
+            Instructment applications with JMX to enable remote monitoring and configuration change.
+            Refactor and architect software to into reusable components allowing connections of data sources to
+            data destinations with flexible processing and threading models.
+            A data source or destination can be a TIBCO Rendezvous subject, IBM MQueue, TCP connection, JDBC database or JMS.
+            Implement fault-tolerant feature using active/inactive process model.
             Replace custom code with open-source component to reduce code size while increasing functionality."""
         ),
                 Resume.History.Project(
             title = "Desktop Applications",
-            description = """Take order execution updates from TIBCO Rendezvous and display them in a dynamic Java Swing interface.\
-            Read updates from TCP connection and display them in a table component within a Java Applet.\
+            description = """Take order execution updates from TIBCO Rendezvous and display them in a dynamic Java Swing interface.
+            Read updates from TCP connection and display them in a table component within a Java Applet.
             Both applications use multiple threads to perform background operations to keep user interface responsive.          """
         )
         ),
@@ -482,19 +482,19 @@ val resume = Resume(
         Resume.History(
         jobtitle = "Senior Systems Engineer",
         employer = "Crispwireless",
-        location = Resume.History.Location(
+        location = Location(
         city = "New York",
         state = "NY"
     ),
-        period = Resume.History.Period(
-        from = Resume.History.Period.From(
+        period = Period(
+        from = Period.From(
         date = Date(
         // 11
         month = "3",
         year = "2006"
     )
     ),
-        to = Resume.History.Period.To(
+        to = Period.To(
         date = Date(
         // 11
         month = "9",
@@ -506,70 +506,70 @@ val resume = Resume(
 //         projects = arrayOf(
 //           (
 //             title = "Tribune Media",
-//             description = "Complete the development, testing and deployment of multiple\
-//             Tribune Media mobile news sites. Use xml data feeds for content integration.\
-//         Provide parsing and conversion of html into mobile friendly markups.\
-//         Setup version control system (svn) and create procedure for porting changes\
+//             description = "Complete the development, testing and deployment of multiple
+//             Tribune Media mobile news sites. Use xml data feeds for content integration.
+//         Provide parsing and conversion of html into mobile friendly markups.
+//         Setup version control system (svn) and create procedure for porting changes
 //       between sites."
 //           ),
 //           (
 //             title = "Lucene",
-//             description = "Implement full text search of content management system using Apache Lucene,\
-//             a text search engine library written entirely in Java.  Setup process to index,\
+//             description = "Implement full text search of content management system using Apache Lucene,
+//             a text search engine library written entirely in Java.  Setup process to index,
 //             search, update and delete content."
 //           ),
 //           (
 //             title = "RSS",
-//             description = "Create connector for RSS to our content management system allowing RSS items\
-//             to be imported and synchronize to our system and allowing our system to\
+//             description = "Create connector for RSS to our content management system allowing RSS items
+//             to be imported and synchronize to our system and allowing our system to
 //             publish RSS feeds."
 //           ),
 //           (
 //             title = "JMX Monitoring &amp; Configuration",
-//             description = "Create JMX management beans to monitor and configure server-side tasks.\
-//             Gather statistics about number of items processed and number of errors.\
-//             Allow debug option to be changed on a live production system without\
-//             the need to restart.  Create Servlet filter to validate output for\
+//             description = "Create JMX management beans to monitor and configure server-side tasks.
+//             Gather statistics about number of items processed and number of errors.
+//             Allow debug option to be changed on a live production system without
+//             the need to restart.  Create Servlet filter to validate output for
 //             WML and XHTML compliance."
 //           )
 //         ),
 //         achievements = arrayOf(
-//           "Integrate HTML parser to clean up and sanitize HTML input into well-form xhtml\
-//             replacing original ad-hoc string search and replace solution that requires\
+//           "Integrate HTML parser to clean up and sanitize HTML input into well-form xhtml
+//             replacing original ad-hoc string search and replace solution that requires
 //             constant updating."
 //         )
     ),
         Resume.History(
         jobtitle = "Senior Systems Consultant",
         employer = "SOFT Inc",
-        location = Resume.History.Location(
+        location = Location(
         city = "New York",
         state = "NY"
     ),
-        period = Resume.History.Period(
-        from = Resume.History.Period.From(
+        period = Period(
+        from = Period.From(
         date = Date(
         month = "9",
         year = "2005"
     )
     ),
-        to = Resume.History.Period.To(
+        to = Period.To(
         date = Date(
         month = "12",
         year = "2005"
     )
     )
     )
-        // description = arrayOf("A technology consulting firm, building and refining critical computer\
+        // description = arrayOf("A technology consulting firm, building and refining critical computer
 //           technology solutions for major clients since 1981."),
 //         projects = arrayOf(
 //           (
 //             title = "Bottomline Technologies (EPAY)",
-//             description = "Perform development, testing and deployment of banking and securities\
-//             applications using WebSeries, the core Bottomline platform for banking\
-//             and payment systems.\
-//             The user interface is built using HTML with JavaScript for data validation and lookup.\
-//         The server side is a combination of JSP, Custom Tags, Servlet and JavaBeans\
+//             description = "Perform development, testing and deployment of banking and securities
+//             applications using WebSeries, the core Bottomline platform for banking
+//             and payment systems.
+//             The user interface is built using HTML with JavaScript for data validation and lookup.
+//         The server side is a combination of JSP, Custom Tags, Servlet and JavaBeans
 //       running on WebSphere, Weblogic and JBoss in Windows or Unix environment."
 //           )
 // 
@@ -579,34 +579,34 @@ val resume = Resume(
         Resume.History(
                 jobtitle = "Professional Staff Software Developer",
                 employer = "SRA International",
-                location = Resume.History.Location(
+                location = Location(
                         city = "Fairfax",
                         state = "VA"
                 ),
-                period = Resume.History.Period(
-                        from = Resume.History.Period.From(
+                period = Period(
+                        from = Period.From(
                                 date = Date(
                                         month = "1",
                                         year = "2005"
                                 )
                         ),
-                        to = Resume.History.Period.To(
+                        to = Period.To(
                                 date = Date(
                                         month = "9",
                                         year = "2005"
                                 )
                         )
                 )
-                // description = arrayOf("SRA is a leading provider of information technology services and\
-//             solutions - including strategic consulting; systems design, development\
-//   and integration; and outsourcing and operations management - to clients\
+                // description = arrayOf("SRA is a leading provider of information technology services and
+//             solutions - including strategic consulting; systems design, development
+//   and integration; and outsourcing and operations management - to clients
 //   in national security, civil government, and health care and public health."),
 //         projects = arrayOf(
 //           (
 //             title = "EPA Portal",
-//             description = "Create web portal for the EPA using Oracle Portal Server 9i.\
-//             Create Portlets using Java, JSP, Struts and Oracle JDeveloper.\
-//             Use JNDI and JDBC to manage user accounts, including login lookup\
+//             description = "Create web portal for the EPA using Oracle Portal Server 9i.
+//             Create Portlets using Java, JSP, Struts and Oracle JDeveloper.
+//             Use JNDI and JDBC to manage user accounts, including login lookup
 //             and password resets.  Use XML and XSLT to display news feeds in portlets."
 //           )
 // 
@@ -616,19 +616,19 @@ val resume = Resume(
                 // f = (
 //         jobtitle = "Bachelor of Science in Computer Science and Engineering",
 //         employer = "The Ohio State University",
-//         location = Resume.History.Location(
+//         location = Location(
 //           city = "Columbus",
 //           state = "Ohio",
 //           country = "USA"
 //         ),
-//         period = Resume.History.Period(
-//           from = Resume.History.Period.From(
+//         period = Period(
+//           from = Period.From(
 //             date = Date(
 //               month = "3",
 //               year = "2002"
 //             )
 //           ),
-//           to = Resume.History.Period.To(
+//           to = Period.To(
 //             date = Date(
 //               month = "12",
 //               year = "2004"
@@ -670,18 +670,18 @@ val resume = Resume(
 //       jobg = (
 //         jobtitle = "Senior Software Developer",
 //         employer = "Ultryx, Inc",
-//         location = Resume.History.Location(
+//         location = Location(
 //           city = "Columbus",
 //           state = "Ohio"
 //         ),
-//         period = Resume.History.Period(
-//           from = Resume.History.Period.From(
+//         period = Period(
+//           from = Period.From(
 //             date = Date(
 //               month = "1",
 //               year = "2000"
 //             )
 //           ),
-//           to = Resume.History.Period.To(
+//           to = Period.To(
 //             date = Date(
 //               month = "2",
 //               year = "2002"
@@ -715,18 +715,18 @@ val resume = Resume(
 //       jobh = (
 //         jobtitle = "Software Developer",
 //         employer = "Core Solutions",
-//         location = Resume.History.Location(
+//         location = Location(
 //           city = "Columbus",
 //           state = "Ohio"
 //         ),
-//         period = Resume.History.Period(
-//           from = Resume.History.Period.From(
+//         period = Period(
+//           from = Period.From(
 //             date = Date(
 //               month = "2",
 //               year = "1997"
 //             )
 //           ),
-//           to = Resume.History.Period.To(
+//           to = Period.To(
 //             date = Date(
 //               month = "12",
 //               year = "1999"
@@ -747,18 +747,18 @@ val resume = Resume(
 //       jobi = (
 //         jobtitle = "Software Developer",
 //         employer = "DM2 Solutions",
-//         location = Resume.History.Location(
+//         location = Location(
 //           city = "Columbus",
 //           state = "Ohio"
 //         ),
-//         period = Resume.History.Period(
-//           from = Resume.History.Period.From(
+//         period = Period(
+//           from = Period.From(
 //             date = Date(
 //               month = "8",
 //               year = "1995"
 //             )
 //           ),
-//           to = Resume.History.Period.To(
+//           to = Period.To(
 //             date = Date(
 //               month = "1",
 //               year = "1997"
@@ -775,18 +775,18 @@ val resume = Resume(
 //       jobj = (
 //         jobtitle = "Software Developer High School Internship",
 //         employer = "DM2 Solutions",
-//         location = Resume.History.Location(
+//         location = Location(
 //           city = "Columbus",
 //           state = "Ohio"
 //         ),
-//         period = Resume.History.Period(
-//           from = Resume.History.Period.From(
+//         period = Period(
+//           from = Period.From(
 //             date = Date(
 //               month = "6",
 //               year = "1995"
 //             )
 //           ),
-//           to = Resume.History.Period.To(
+//           to = Period.To(
 //             date = Date(
 //               month = "8",
 //               year = "1995"
@@ -807,14 +807,14 @@ val resume = Resume(
         award = Resume.Awards.Award(
         title = "Dean's List",
         organization = "The Ohio State University",
-        period = Resume.Awards.Award.Period(
-        from = Resume.Awards.Award.Period.From(
+        period = Period(
+        from = Period.From(
         date = Date(
         month = "1",
         year = "2004"
     )
     ),
-        to = Resume.Awards.Award.Period.To(
+        to = Period.To(
         date = Date(
         month = "12",
         year = "2004"
@@ -834,7 +834,7 @@ val resume = Resume(
         year = "2004"
     ),
         institution = "The Ohio State University",
-        location = Resume.Academics.Degrees.Degree.Location(
+        location = Location(
         city = "Columbus",
         state = "Ohio"
     ),

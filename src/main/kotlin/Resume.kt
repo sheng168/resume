@@ -47,12 +47,6 @@ data class Resume(
                         val para: String = "Major GPA: 3.61 out of 4.00." // Major GPA: 3.61 out of 4.00.
                     )
                 }
-
-                
-                data class Location(
-                    val city: String = "Columbus", // Columbus
-                    val state: String = "Ohio" // Ohio
-                )
             }
         }
     }
@@ -66,29 +60,7 @@ data class Resume(
             val organization: String = "The Ohio State University", // The Ohio State University
             val period: Period = Period(),
             val title: String = "Dean's Array" // Dean's Array
-        ) {
-            
-            data class Period(
-                val from: From = From(),
-                val to: To = To()
-            ) {
-                
-                data class From(
-                    val date: Date = Date()
-                ) {
-                    
-
-                }
-
-                
-                data class To(
-                    val date: Date = Date()
-                ) {
-                    
-
-                }
-            }
-        }
+        )
     }
 
     
@@ -134,25 +106,7 @@ data class Resume(
                     val title: String = "Server Application" // Server Application
             )
 
-            data class Location(
-                val city: String = "New York", // New York
-                val state: String = "NY" // NY
-            )
 
-            data class Period(
-                val from: From = From(),
-                val to: To = To()
-            ) {
-                
-                data class From(
-                    val date: Date = Date()
-                )
-
-                
-                data class To(
-                    val date: Date = Date()
-                )
-            }
         }
 
 
@@ -178,7 +132,26 @@ data class Resume(
     }
 }
 
+data class Location(
+        val city: String = "New York", // New York
+        val state: String = "NY" // NY
+)
+
 data class Date(
         val month: String = "7", // 7
         val year: String = "2018" // 2018
 )
+
+data class Period(
+        val from: From = From(),
+        val to: To = To()
+) {
+
+    data class From(
+            val date: Date = Date()
+    )
+
+    data class To(
+            val date: Date = Date()
+    )
+}
