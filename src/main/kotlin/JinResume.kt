@@ -220,23 +220,23 @@ val resume = Resume(
             )
     ),
 
-    history = Resume.History(
-        t = Resume.History.T(
+    history = arrayOf(
+        Resume.History(
         jobtitle = "Sr Software Engineer",
         employer = "Clearme.com",
-        location = Resume.History.T.Location(
+        location = Resume.History.Location(
         city = "New York",
         state = "NY"
     ),
-        period = Resume.History.T.Period(
-        from = Resume.History.T.Period.From(
-        date = Resume.History.T.Period.From.Date(
+        period = Resume.History.Period(
+        from = Resume.History.Period.From(
+        date = Date(
         month = "7",
         year = "2018"
     )
     ),
-        to = Resume.History.T.Period.To(
-        date = Resume.History.T.Period.To.Date(
+        to = Resume.History.Period.To(
+        date = Date(
     )
     )
     ),
@@ -244,96 +244,95 @@ val resume = Resume(
         "JVM micro services using Java/Kotlin, Dropwizard, Kafka, Docker, AWS. "),
         projects = arrayOf(
         )
-    )/*,
-        _x = (
+    ),
+        Resume.History(
         jobtitle = "Sr Software Engineer",
         employer = "Catchpoint",
-        location = (
+        location = Resume.History.Location(
         city = "New York",
         state = "NY"
     ),
-        period = (
-        from = (
-        date = (
+        period = Resume.History.Period(
+        from = Resume.History.Period.From(
+        date = Date(
         month = "1",
         year = "2016"
     )
     ),
-        to = (
-        date = (
+        to = Resume.History.Period.To(
+        date = Date(
         month = "4",
         year = "2018"
     )
-    ),
+    )
     ),
         description = arrayOf(
-        "As a member of the Agent team, Maintain and enhance the network monitoring SaaS product. \
+        """As a member of the Agent team, Maintain and enhance the network monitoring SaaS product. \
         Triage bug reports, fix software defects and develop new features. \
         Estimate development effects for backlog tasks. Perform R&D to determine feasibility and break down large tasks. \
-        Evaluate software libraries for inclusion in our projects. Perform code reviews and production support."),
+        Evaluate software libraries for inclusion in our projects. Perform code reviews and production support."""),
         projects = arrayOf(
-        (
+        Resume.History.Project(
             title = "Agent 2.0 Rewrite",
             description = "Contribute my experience to this major effort to reimplement our core product. Advocate for finding simple designs to our problems; using a limited number of well know features to compose our solution."
         ),
-        (
+                Resume.History.Project(
             title = "Antlr Grammar",
-            description = "Create a grammar to replace the existing hand-written parser for test scripts.\
-            "
+            description = "Create a grammar to replace the existing hand-written parser for test scripts."
         ),
-        (
+                Resume.History.Project(
             title = "Safari Mobile",
-            description = "Port Agent software from Windows/Linux to MacOS using mainly C# and .Net in Visual Studio and Xamarin Studio.\
-            Instrument Safari Mobile in simulator and real device to measure network activity while performing automated testing."
+            description = """Port Agent software from Windows/Linux to MacOS using mainly C# and .Net in Visual Studio and Xamarin Studio.
+            Instrument Safari Mobile in simulator and real device to measure network activity while performing automated testing."""
         ),
-        (
+                Resume.History.Project(
             title = "Java Client for REST API",
-            description = "Create the Java client library for our REST API. \
-            Ensure that authentication token renewal is implemented both correctly and efficiently."
+            description = """Create the Java client library for our REST API. 
+            Ensure that authentication token renewal is implemented both correctly and efficiently."""
         )
-        ),
+        )
     ),
-        _y = (
+        Resume.History(
         jobtitle = "Lead Mobile SDK Engineer",
         employer = "RealNetworks",
-        location = (
+        location = Resume.History.Location(
         city = "New York",
         state = "NY"
     ),
-        period = (
-        from = (
-        date = (
+        period = Resume.History.Period(
+        from = Resume.History.Period.From(
+        date = Date(
         // 11
         month = "4",
         year = "2015"
     )
     ),
-        to = (
-        date = (
+        to = Resume.History.Period.To(
+        date = Date(
         // 11
         month = "11",
         year = "2015"
     )
-    ),
+    )
 //           to = "Present"
     ),
         description = arrayOf(
         "Responsible for the development of mobile SDK."),
         projects = arrayOf(
-        (
+                Resume.History.Project(
             title = "RealCloud SDK",
-            description = "Develop Android SDK while managing contractor to develop iOS SDK. \
+            description = """Develop Android SDK while managing contractor to develop iOS SDK. \
             Allow third-party apps to have easy access to RealPlayer Cloud data store via REST API.\
             We settled on building our SDK on top of Retrofit and OkHttp to allow use to \
             use type-safe Java interfaces to map to our REST API and perform client side \
-            transformations to fix inconsistencies."
+            transformations to fix inconsistencies."""
         ),
-        (
+                Resume.History.Project(
             title = "RealTimes SDK",
-            description = "Polish private API for public consumption allowing third-party apps \
-            to generate video stories by supplying their own content."
+            description = """Polish private API for public consumption allowing third-party apps \
+            to generate video stories by supplying their own content."""
         )
-        ),
+        )
 //         achievements = arrayOf(
 //           "Successfully developed and deployed cross-platform mobile application to Android, iOS and Web",
 //           "Lead development of Android and iOS XMPP client",
@@ -341,30 +340,30 @@ val resume = Resume(
 //           "Train new development team members by documenting application code, creating diagrams, performing code review and prividing hands-on training"
 //         )
     ),
-        _z = (
+        Resume.History(
         jobtitle = "US Integration Lead Engineer",
         employer = "Algomi",
-        location = (
+        location = Resume.History.Location(
         city = "New York",
         state = "NY"
     ),
-        period = (
-        from = (
-        date = (
+        period = Resume.History.Period(
+        from = Resume.History.Period.From(
+        date = Date(
         month = "8",
         year = "2014"
     )
     ),
-        to = (
-        date = (
+        to = Resume.History.Period.To(
+        date = Date(
         month = "4",
         year = "2015"
     )
-    ),
+    )
     ),
         description = arrayOf(
-        "Responsible for the deployment of Algomi platform to client environment. \
-        Work with sales team to communicate technical architecture and integration requirements."),
+        """Responsible for the deployment of Algomi platform to client environment. \
+        Work with sales team to communicate technical architecture and integration requirements.""")
 //         projects = arrayOf(
 //           (
 //             title = "Abeona",
@@ -378,46 +377,46 @@ val resume = Resume(
 //           "Improve connectivity to London headquarter by setting up VPN tunnel for entire office to replace individual VPN sessions from each client machine.",
 //         )
     ),
-        a = (
+        Resume.History(
         jobtitle = "Lead Development Engineer",
         employer = "RealNetworks",
-        location = (
+        location = Resume.History.Location(
         city = "New York",
         state = "NY"
     ),
-        period = (
-        from = (
-        date = (
+        period = Resume.History.Period(
+        from = Resume.History.Period.From(
+        date = Date(
         month = "4",
         year = "2011"
     )
     ),
-        to = (
-        date = (
+        to = Resume.History.Period.To(
+        date = Date(
         month = "8",
         year = "2014"
     )
-    ),
+    )
     ),
         description = arrayOf(
         "Responsible for the development of new applications with mobile, desktop and server components."),
         projects = arrayOf(
-        (
+                Resume.History.Project(
             title = "Abeona",
-            description = "Develop mobile application for parents to monitor child"s usage of Android device.\
+            description = """Develop mobile application for parents to monitor child"s usage of Android device.\
             All data is store using a popular backend-as-a-service.\
             Parents receive real-time activity stream and can update child"s device configuration\
-            via push notifications."
+            via push notifications."""
         ),
-        (
+                Resume.History.Project(
             title = "Mobile Messaging Application",
             description = "Develop Android and iOS messaging applications using XMPP and OpenFire server."
         ),
-        (
+            Resume.History.Project(
             title = "Mobile Twitter Application",
             description = "Develop location-based messaging using Twitter API."
         ),
-        (
+        Resume.History.Project(
             title = "Server Application",
             description = "Develop server application using SMPP for inter-carrier messaging."
         )
@@ -429,23 +428,23 @@ val resume = Resume(
         "Train new development team members by documenting application code, creating diagrams, performing code review and prividing hands-on training"
         )
     ),
-        b = (
+        Resume.History(
         jobtitle = "Senior Software Developer",
         employer = "Merrill Lynch",
-        location = (
+        location = Resume.History.Location(
         city = "New York",
         state = "NY"
     ),
-        period = (
-        from = (
-        date = (
+        period = Resume.History.Period(
+        from = Resume.History.Period.From(
+        date = Date(
         // 11
         month = "11",
         year = "2006"
     )
     ),
-        to = (
-        date = (
+        to = Resume.History.Period.To(
+        date = Date(
         // 11
         month = "8",
         year = "2010"
@@ -454,9 +453,9 @@ val resume = Resume(
     ),
         description = arrayOf("Maintain and create applications to support trading platform."),
         projects = arrayOf(
-        (
+                Resume.History.Project(
             title = "Server Applications",
-            description = "Create Drop Copy server application that process FIX message in near-realtime from Tibrv and send to clients via MQueue.\
+            description = """Create Drop Copy server application that process FIX message in near-realtime from Tibrv and send to clients via MQueue.\
             Create server application to allow application messages to be replayed.\
             Create server application to capture high volume trading data into MS SQL Server.\
             Instructment applications with JMX to enable remote monitoring and configuration change.\
@@ -464,13 +463,13 @@ val resume = Resume(
             data destinations with flexible processing and threading models.\
             A data source or destination can be a TIBCO Rendezvous subject, IBM MQueue, TCP connection, JDBC database or JMS.\
             Implement fault-tolerant feature using active/inactive process model.\
-            Replace custom code with open-source component to reduce code size while increasing functionality."
+            Replace custom code with open-source component to reduce code size while increasing functionality."""
         ),
-        (
+                Resume.History.Project(
             title = "Desktop Applications",
-            description = "Take order execution updates from TIBCO Rendezvous and display them in a dynamic Java Swing interface.\
+            description = """Take order execution updates from TIBCO Rendezvous and display them in a dynamic Java Swing interface.\
             Read updates from TCP connection and display them in a table component within a Java Applet.\
-            Both applications use multiple threads to perform background operations to keep user interface responsive.          "
+            Both applications use multiple threads to perform background operations to keep user interface responsive.          """
         )
         ),
         achievements = arrayOf(
@@ -480,29 +479,29 @@ val resume = Resume(
         "Simplify software while adding functionality by factoring out shared code across projects"
         )
     ),
-        c = (
+        Resume.History(
         jobtitle = "Senior Systems Engineer",
         employer = "Crispwireless",
-        location = (
+        location = Resume.History.Location(
         city = "New York",
         state = "NY"
     ),
-        period = (
-        from = (
-        date = (
+        period = Resume.History.Period(
+        from = Resume.History.Period.From(
+        date = Date(
         // 11
         month = "3",
         year = "2006"
     )
     ),
-        to = (
-        date = (
+        to = Resume.History.Period.To(
+        date = Date(
         // 11
         month = "9",
         year = "2006"
     )
     )
-    ),
+    )
         // description = arrayOf("Crisp Wireless provides innovative mobile content management solutions enabling consumer-facing companies to deliver rich media content and engaging applications for revenue generation, brand promotion, and customer loyalty."),
 //         projects = arrayOf(
 //           (
@@ -540,27 +539,27 @@ val resume = Resume(
 //             constant updating."
 //         )
     ),
-        d = (
+        Resume.History(
         jobtitle = "Senior Systems Consultant",
         employer = "SOFT Inc",
-        location = (
+        location = Resume.History.Location(
         city = "New York",
         state = "NY"
     ),
-        period = (
-        from = (
-        date = (
+        period = Resume.History.Period(
+        from = Resume.History.Period.From(
+        date = Date(
         month = "9",
         year = "2005"
     )
     ),
-        to = (
-        date = (
+        to = Resume.History.Period.To(
+        date = Date(
         month = "12",
         year = "2005"
     )
     )
-    ),
+    )
         // description = arrayOf("A technology consulting firm, building and refining critical computer\
 //           technology solutions for major clients since 1981."),
 //         projects = arrayOf(
@@ -577,28 +576,28 @@ val resume = Resume(
 //         ),
 //         achievements = arrayOf()
     ),
-        e = (
-        jobtitle = "Professional Staff Software Developer",
-        employer = "SRA International",
-        location = (
-        city = "Fairfax",
-        state = "VA"
-    ),
-        period = (
-        from = (
-        date = (
-        month = "1",
-        year = "2005"
-    )
-    ),
-        to = (
-        date = (
-        month = "9",
-        year = "2005"
-    )
-    )
-    ),
-        // description = arrayOf("SRA is a leading provider of information technology services and\
+        Resume.History(
+                jobtitle = "Professional Staff Software Developer",
+                employer = "SRA International",
+                location = Resume.History.Location(
+                        city = "Fairfax",
+                        state = "VA"
+                ),
+                period = Resume.History.Period(
+                        from = Resume.History.Period.From(
+                                date = Date(
+                                        month = "1",
+                                        year = "2005"
+                                )
+                        ),
+                        to = Resume.History.Period.To(
+                                date = Date(
+                                        month = "9",
+                                        year = "2005"
+                                )
+                        )
+                )
+                // description = arrayOf("SRA is a leading provider of information technology services and\
 //             solutions - including strategic consulting; systems design, development\
 //   and integration; and outsourcing and operations management - to clients\
 //   in national security, civil government, and health care and public health."),
@@ -614,29 +613,29 @@ val resume = Resume(
 //         ),
 //         achievements = arrayOf()
 //       ),
-        // f = (
+                // f = (
 //         jobtitle = "Bachelor of Science in Computer Science and Engineering",
 //         employer = "The Ohio State University",
-//         location = (
+//         location = Resume.History.Location(
 //           city = "Columbus",
 //           state = "Ohio",
 //           country = "USA"
 //         ),
-//         period = (
-//           from = (
-//             date = (
+//         period = Resume.History.Period(
+//           from = Resume.History.Period.From(
+//             date = Date(
 //               month = "3",
 //               year = "2002"
 //             )
 //           ),
-//           to = (
-//             date = (
+//           to = Resume.History.Period.To(
+//             date = Date(
 //               month = "12",
 //               year = "2004"
 //             )
 //           )
 //         ),
-        // description = "I return to school full-time to complete the last two years of college. In addition to my major, my GEC course contains a concentration of my interest in Economics.",
+                // description = "I return to school full-time to complete the last two years of college. In addition to my major, my GEC course contains a concentration of my interest in Economics.",
 //         projects = (
 //           project1 = (
 //             title = "Capstone Project",
@@ -671,31 +670,31 @@ val resume = Resume(
 //       jobg = (
 //         jobtitle = "Senior Software Developer",
 //         employer = "Ultryx, Inc",
-//         location = (
+//         location = Resume.History.Location(
 //           city = "Columbus",
 //           state = "Ohio"
 //         ),
-//         period = (
-//           from = (
-//             date = (
+//         period = Resume.History.Period(
+//           from = Resume.History.Period.From(
+//             date = Date(
 //               month = "1",
 //               year = "2000"
 //             )
 //           ),
-//           to = (
-//             date = (
+//           to = Resume.History.Period.To(
+//             date = Date(
 //               month = "2",
 //               year = "2002"
 //             )
 //           )
 //         ),
-        // description = (
+                // description = (
 //           para1 = "Ultryx Corporation delivers Enterprise Channel Management (ECM) software and services to global manufacturers. UltryxChannels(TM) solutions enable manufacturers to quickly and flexibly integrate their back-office systems with channel specific business processes to increase operating margins, reduce cycle times, and improve customer service.",
 // //          para2 = "Founded in 1984, Ultryx Corporation is privately held and is based in Columbus, Ohio. Over 300 manufacturers in 53 countries employ Ultryx software solutions in their operations. For more information, visit www.ultryx.com.",
 // //          para3 = "UltryxChannels(TM) is a registered trademark of Ultryx Corporation.",
 //           para4 = "Note = Ultryx was an Internet startup that is not longer in operation."
 //         ),
-        // projects = (
+                // projects = (
 //           project1 = (
 //             title = "eCommerce",
 //             description = "Worked in the product team to create web application framework including membership, preference, privilege, product catalog, dynamic content components using Java Servlet, JSP, JDBC, EJB and IBM WebSphere. MS SQL Server, Oracle and DB2 databases are supported. Application can be deployed with IIS or Apache user respective plugin."
@@ -716,25 +715,25 @@ val resume = Resume(
 //       jobh = (
 //         jobtitle = "Software Developer",
 //         employer = "Core Solutions",
-//         location = (
+//         location = Resume.History.Location(
 //           city = "Columbus",
 //           state = "Ohio"
 //         ),
-//         period = (
-//           from = (
-//             date = (
+//         period = Resume.History.Period(
+//           from = Resume.History.Period.From(
+//             date = Date(
 //               month = "2",
 //               year = "1997"
 //             )
 //           ),
-//           to = (
-//             date = (
+//           to = Resume.History.Period.To(
+//             date = Date(
 //               month = "12",
 //               year = "1999"
 //             )
 //           )
 //         ),
-        // projects = (
+                // projects = (
 //           project1 = (
 //             title = "CertainCert",
 //             description = "Developed, maintained and enhanced insurance certificate tracking product base on customer request and feedback using Borland Delphi version 1 to 4.  The product works both in desktop mode using Microsoft Access and client-server mode using MS SQL Server. Created online software licensing system including verification of user credentials and online software key generation using Java Servlet and JDBC. Serve as top level of technical support. Verify software bugs by creating customer environment including importing customer data. Fix bugs in software product and create updates for affected customers."
@@ -748,25 +747,25 @@ val resume = Resume(
 //       jobi = (
 //         jobtitle = "Software Developer",
 //         employer = "DM2 Solutions",
-//         location = (
+//         location = Resume.History.Location(
 //           city = "Columbus",
 //           state = "Ohio"
 //         ),
-//         period = (
-//           from = (
-//             date = (
+//         period = Resume.History.Period(
+//           from = Resume.History.Period.From(
+//             date = Date(
 //               month = "8",
 //               year = "1995"
 //             )
 //           ),
-//           to = (
-//             date = (
+//           to = Resume.History.Period.To(
+//             date = Date(
 //               month = "1",
 //               year = "1997"
 //             )
 //           )
 //         ),
-        // projects = (
+                // projects = (
 //           project = (
 //             title = "Multimedia",
 //             description = "Setup and administrated Web server.  Created CGI scripts for various functions including tracking web site traffic and web interface to view and edit databases records. Created multimedia CBT using Macromedia Director and database applications using FileMaker Pro."
@@ -776,31 +775,31 @@ val resume = Resume(
 //       jobj = (
 //         jobtitle = "Software Developer High School Internship",
 //         employer = "DM2 Solutions",
-//         location = (
+//         location = Resume.History.Location(
 //           city = "Columbus",
 //           state = "Ohio"
 //         ),
-//         period = (
-//           from = (
-//             date = (
+//         period = Resume.History.Period(
+//           from = Resume.History.Period.From(
+//             date = Date(
 //               month = "6",
 //               year = "1995"
 //             )
 //           ),
-//           to = (
-//             date = (
+//           to = Resume.History.Period.To(
+//             date = Date(
 //               month = "8",
 //               year = "1995"
 //             )
 //           )
 //         ),
-        // projects = (
+                // projects = (
 //           project = (
 //             title = "Intern",
 //             description = "Helped out in various software projects including custom database implementation, multimedia informational training implementation and testing."
 //           )
 //         )
-    )*/
+        )
     ),
 
     awards = Resume.Awards(
