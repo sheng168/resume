@@ -36,13 +36,7 @@ data class Resume(
                 val location: Location = Location(),
                 val major: String = "Computer Science and Engineering" // Computer Science and Engineering
             ) {
-                
-                data class Date(
-                    val month: String = "12", // 12
-                    val year: String = "2004" // 2004
-                )
 
-                
                 data class Gpa(
                     val note: Note = Note(),
                     val possible: String = "4.00", // 4.00
@@ -83,10 +77,7 @@ data class Resume(
                     val date: Date = Date()
                 ) {
                     
-                    data class Date(
-                        val month: String = "1", // 1
-                        val year: String = "2004" // 2004
-                    )
+
                 }
 
                 
@@ -94,10 +85,7 @@ data class Resume(
                     val date: Date = Date()
                 ) {
                     
-                    data class Date(
-                        val month: String = "12", // 12
-                        val year: String = "2004" // 2004
-                    )
+
                 }
             }
         }
@@ -174,10 +162,7 @@ data class Resume(
         val date: Date = Date()
     ) {
         
-        data class Date(
-            val month: String = "7", // 7
-            val year: String = "2018" // 2018
-        )
+
     }
 
     

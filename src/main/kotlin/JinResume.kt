@@ -809,13 +809,13 @@ val resume = Resume(
         organization = "The Ohio State University",
         period = Resume.Awards.Award.Period(
         from = Resume.Awards.Award.Period.From(
-        date = Resume.Awards.Award.Period.From.Date(
+        date = Date(
         month = "1",
         year = "2004"
     )
     ),
         to = Resume.Awards.Award.Period.To(
-        date = Resume.Awards.Award.Period.To.Date(
+        date = Date(
         month = "12",
         year = "2004"
     )
@@ -829,7 +829,7 @@ val resume = Resume(
         degree = Resume.Academics.Degrees.Degree(
         level = "B.S.",
         major = "Computer Science and Engineering",
-        date = Resume.Academics.Degrees.Degree.Date(
+        date = Date(
         month = "12",
         year = "2004"
     ),
@@ -857,7 +857,7 @@ val resume = Resume(
     ),
 
     lastModified = Resume.LastModified(
-        date = Resume.LastModified.Date(
+        date = Date(
         month = "7",
         year = "2018"
     )
