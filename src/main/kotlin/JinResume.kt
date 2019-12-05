@@ -231,8 +231,8 @@ val resume = Resume(
                         period = Period(
                                 from = Period.From(
                                         date = Date(
-                                                month = "7",
-                                                year = "2018"
+                                                month = 7,
+                                                year = 2018
                                         )
                                 ),
                                 to = Period.To(
@@ -255,14 +255,14 @@ val resume = Resume(
                         period = Period(
                                 from = Period.From(
                                         date = Date(
-                                                month = "1",
-                                                year = "2016"
+                                                month = 1,
+                                                year = 2016
                                         )
                                 ),
                                 to = Period.To(
                                         date = Date(
-                                                month = "4",
-                                                year = "2018"
+                                                month = 4,
+                                                year = 2018
                                         )
                                 )
                         ),
@@ -303,15 +303,15 @@ val resume = Resume(
                                 from = Period.From(
                                         date = Date(
                                                 // 11
-                                                month = "4",
-                                                year = "2015"
+                                                month = 4,
+                                                year = 2015
                                         )
                                 ),
                                 to = Period.To(
                                         date = Date(
                                                 // 11
-                                                month = "11",
-                                                year = "2015"
+                                                month = 11,
+                                                year = 2015
                                         )
                                 )
 //           to = "Present"
@@ -350,14 +350,14 @@ val resume = Resume(
                         period = Period(
                                 from = Period.From(
                                         date = Date(
-                                                month = "8",
-                                                year = "2014"
+                                                month = 8,
+                                                year = 2014
                                         )
                                 ),
                                 to = Period.To(
                                         date = Date(
-                                                month = "4",
-                                                year = "2015"
+                                                month = 4,
+                                                year = 2015
                                         )
                                 )
                         ),
@@ -387,14 +387,14 @@ val resume = Resume(
                         period = Period(
                                 from = Period.From(
                                         date = Date(
-                                                month = "4",
-                                                year = "2011"
+                                                month = 4,
+                                                year = 2011
                                         )
                                 ),
                                 to = Period.To(
                                         date = Date(
-                                                month = "8",
-                                                year = "2014"
+                                                month = 8,
+                                                year = 2014
                                         )
                                 )
                         ),
@@ -439,15 +439,15 @@ val resume = Resume(
                                 from = Period.From(
                                         date = Date(
                                                 // 11
-                                                month = "11",
-                                                year = "2006"
+                                                month = 11,
+                                                year = 2006
                                         )
                                 ),
                                 to = Period.To(
                                         date = Date(
                                                 // 11
-                                                month = "8",
-                                                year = "2010"
+                                                month = 8,
+                                                year = 2010
                                         )
                                 )
                         ),
@@ -490,15 +490,15 @@ val resume = Resume(
                                 from = Period.From(
                                         date = Date(
                                                 // 11
-                                                month = "3",
-                                                year = "2006"
+                                                month = 3,
+                                                year = 2006
                                         )
                                 ),
                                 to = Period.To(
                                         date = Date(
                                                 // 11
-                                                month = "9",
-                                                year = "2006"
+                                                month = 9,
+                                                year = 2006
                                         )
                                 )
                         )
@@ -549,14 +549,14 @@ val resume = Resume(
                         period = Period(
                                 from = Period.From(
                                         date = Date(
-                                                month = "9",
-                                                year = "2005"
+                                                month = 9,
+                                                year = 2005
                                         )
                                 ),
                                 to = Period.To(
                                         date = Date(
-                                                month = "12",
-                                                year = "2005"
+                                                month = 12,
+                                                year = 2005
                                         )
                                 )
                         )
@@ -586,14 +586,14 @@ val resume = Resume(
                         period = Period(
                                 from = Period.From(
                                         date = Date(
-                                                month = "1",
-                                                year = "2005"
+                                                month = 1,
+                                                year = 2005
                                         )
                                 ),
                                 to = Period.To(
                                         date = Date(
-                                                month = "9",
-                                                year = "2005"
+                                                month = 9,
+                                                year = 2005
                                         )
                                 )
                         )
@@ -624,14 +624,14 @@ val resume = Resume(
 //         period = Period(
 //           from = Period.From(
 //             date = Date(
-//               month = "3",
-//               year = "2002"
+//               month = 3,
+//               year = 2002
 //             )
 //           ),
 //           to = Period.To(
 //             date = Date(
-//               month = "12",
-//               year = "2004"
+//               month = 12,
+//               year = 2004
 //             )
 //           )
 //         ),
@@ -677,14 +677,14 @@ val resume = Resume(
 //         period = Period(
 //           from = Period.From(
 //             date = Date(
-//               month = "1",
-//               year = "2000"
+//               month = 1,
+//               year = 2000
 //             )
 //           ),
 //           to = Period.To(
 //             date = Date(
-//               month = "2",
-//               year = "2002"
+//               month = 2,
+//               year = 2002
 //             )
 //           )
 //         ),
@@ -722,14 +722,14 @@ val resume = Resume(
 //         period = Period(
 //           from = Period.From(
 //             date = Date(
-//               month = "2",
-//               year = "1997"
+//               month = 2,
+//               year = 1997
 //             )
 //           ),
 //           to = Period.To(
 //             date = Date(
-//               month = "12",
-//               year = "1999"
+//               month = 12,
+//               year = 1999
 //             )
 //           )
 //         ),
@@ -754,14 +754,14 @@ val resume = Resume(
 //         period = Period(
 //           from = Period.From(
 //             date = Date(
-//               month = "8",
-//               year = "1995"
+//               month = 8,
+//               year = 1995
 //             )
 //           ),
 //           to = Period.To(
 //             date = Date(
-//               month = "1",
-//               year = "1997"
+//               month = 1,
+//               year = 1997
 //             )
 //           )
 //         ),
@@ -782,14 +782,14 @@ val resume = Resume(
 //         period = Period(
 //           from = Period.From(
 //             date = Date(
-//               month = "6",
-//               year = "1995"
+//               month = 6,
+//               year = 1995
 //             )
 //           ),
 //           to = Period.To(
 //             date = Date(
-//               month = "8",
-//               year = "1995"
+//               month = 8,
+//               year = 1995
 //             )
 //           )
 //         ),
@@ -810,14 +810,14 @@ val resume = Resume(
                         period = Period(
                                 from = Period.From(
                                         date = Date(
-                                                month = "1",
-                                                year = "2004"
+                                                month = 1,
+                                                year = 2004
                                         )
                                 ),
                                 to = Period.To(
                                         date = Date(
-                                                month = "12",
-                                                year = "2004"
+                                                month = 12,
+                                                year = 2004
                                         )
                                 )
                         )
@@ -830,8 +830,8 @@ val resume = Resume(
                                 level = "B.S.",
                                 major = "Computer Science and Engineering",
                                 date = Date(
-                                        month = "12",
-                                        year = "2004"
+                                        month = 12,
+                                        year = 2004
                                 ),
                                 institution = "The Ohio State University",
                                 location = Location(
@@ -858,8 +858,8 @@ val resume = Resume(
 
         lastModified = Resume.LastModified(
                 date = Date(
-                        month = "12",
-                        year = "2019"
+                        month = 12,
+                        year = 2019
                 )
         )
 )

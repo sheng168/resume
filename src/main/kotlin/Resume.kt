@@ -106,8 +106,8 @@ data class Location(
 )
 
 data class Date(
-        val month: String = "", // 7
-        val year: String = "" // 2018
+        val month: Int? = null, // 7
+        val year: Int? = null // 2018
 )
 
 data class Period(
