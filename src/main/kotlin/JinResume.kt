@@ -858,8 +858,8 @@ val resume = Resume(
 
         lastModified = Resume.LastModified(
                 date = Date(
-                        month = "7",
-                        year = "2018"
+                        month = "12",
+                        year = "2019"
                 )
         )
 )

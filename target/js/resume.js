@@ -890,7 +890,7 @@ var resume = function (_, Kotlin) {
   tmp$_27 = new Location('Columbus', 'Ohio');
   tmp$_28 = new Resume$Academics(new Resume$Academics$Degrees(new Resume$Academics$Degrees$Degree(tmp$_26, new Resume$Academics$Degrees$Degree$Gpa(new Resume$Academics$Degrees$Degree$Gpa$Note('Major GPA = 3.61 out of 4.00.'), '4.00', '3.38'), 'The Ohio State University', 'B.S.', tmp$_27, 'Computer Science and Engineering')));
   tmp$_29 = ['Achieve world leading level 72 in Plants vs Zombies Free Vasebreaker Endless on iPhone', 'This resume is created and edited as a XML document. XSLT is use to ' + 'create HTML, plain text or PDF versions with the same content as needed.', 'It has been converted to JSON and rendered using AngularJS into HTML.'];
-  resume = new Resume(tmp$_28, tmp$_25, tmp$_0, tmp$_24, new Resume$LastModified(new Date_0('7', '2018')), tmp$_29, tmp$_1, tmp$_2);
+  resume = new Resume(tmp$_28, tmp$_25, tmp$_0, tmp$_24, new Resume$LastModified(new Date_0('12', '2019')), tmp$_29, tmp$_1, tmp$_2);
   name = new Resume$Header$Name('Kotlin');
   main();
   Kotlin.defineModule('resume', _);
