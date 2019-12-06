@@ -1,4 +1,7 @@
+import kotlinx.serialization.*
+import kotlinx.serialization.internal.StringDescriptor
 
+//@Serializable
 data class Resume(
         val academics: Academics? = null,
         val awards: Awards? = null,
