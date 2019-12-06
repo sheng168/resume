@@ -1,22 +1,22 @@
 
 data class Resume(
-        val academics: Academics = Academics(),
+        val academics: Academics? = null,
         val awards: Awards? = null,
         val header: Header,
         val history: Array<History> = arrayOf(),
-        val lastModified: LastModified = LastModified(),
+        val lastModified: Date? = null,
         val misc: Array<String> = arrayOf(),
         val objective: Array<String> = arrayOf(),
         val skillarea: Array<Skillarea> = arrayOf()
 ) {
     data class Academics(
-            val degrees: Degrees = Degrees()
+            val degrees: Degrees
     ) {
         data class Degrees(
-                val degree: Degree = Degree()
+                val degree: Degree
         ) {
             data class Degree(
-                    val date: Date = Date(),
+                    val date: Date,
                     val gpa: Gpa = Gpa(),
                     val institution: String = "The Ohio State University", // The Ohio State University
                     val level: String = "B.S.", // B.S.
@@ -86,7 +86,7 @@ data class Resume(
     }
 
     data class LastModified(
-            val date: Date = Date()
+            val date: Date
     )
 
     data class Skillarea(
@@ -106,20 +106,11 @@ data class Location(
 )
 
 data class Date(
-        val month: Int? = null, // 7
+        val month: Int, // 7
         val year: Int? = null // 2018
 )
 
 data class Period(
         val from: Date,
         val to: Date? = null
-) {
-
-    data class From(
-            val date: Date = Date()
-    )
-
-    data class To(
-            val date: Date = Date()
-    )
-}
+)

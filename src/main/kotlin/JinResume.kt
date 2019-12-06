@@ -25,7 +25,8 @@ val resume = Resume(
                 """My current interests include Android and iOS mobile application development,
     the Java, Kotlin, Swift and Scala programming languages, open-source development(https://github.com/sheng168),
     high throughput and low latency architecture
-    and API design(https://bitbucket.org/sheng/parsefacade)."""),
+    and API design(https://bitbucket.org/sheng/parsefacade)."""
+        ),
 
         skillarea = arrayOf(
                 Resume.Skillarea(
@@ -232,12 +233,19 @@ val resume = Resume(
                                 from = Date(
                                         month = 7,
                                         year = 2018
-                                ),
-                                to = Date()
+                                )
                         ),
                         description = arrayOf(
                                 "JVM micro services using Java/Kotlin, Dropwizard, Kafka, Docker, AWS. "),
-                        projects = arrayOf(
+                        achievements = arrayOf(
+                                """Create Dropwizard bundles to reuse software and consistently implement features: 
+                                Vault secret management, Jwt token security and interceptor base REST request logging""",
+
+                                """Refactor codebase to move CorrelationInfo to ThreadLocal, 
+                                use primitive where object is not needed 
+                                and increase platform independence by using more Kotlin""",
+
+                                "Create Maven parent pom to share dependencies between services and ease migration of services from Java 8 to 11."
                         )
                 ),
                 Resume.History(
@@ -809,10 +817,8 @@ val resume = Resume(
                 "It has been converted to JSON and rendered using AngularJS into HTML."
         ),
 
-        lastModified = Resume.LastModified(
-                date = Date(
-                        month = 12,
-                        year = 2019
-                )
+        lastModified = Date(
+                month = 12,
+                year = 2019
         )
 )
