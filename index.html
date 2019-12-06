@@ -110,7 +110,7 @@ table.referees { width: 60%; margin-top: 0cm; margin-bottom: 0cm;}
             <span class="jobTitle">{{job.jobtitle}}: </span>
             <span class="employer">{{job.employer}}</span>
             <span class="location"> ({{job.location.city}}, {{job.location.state}})</span>
-            {{job.period.from.date.month}}/{{job.period.from.date.year}} to {{job.period.to.date.month}}/{{job.period.to.date.year||'Present'}}
+            {{job.period.from.month}}/{{job.period.from.year}} to {{job.period.to.month}}/{{job.period.to.year||'Present'}}
         </p>
         <div class="jobDescription">
             <p class="para" ng-repeat="d in job.description">
@@ -141,7 +141,7 @@ table.referees { width: 60%; margin-top: 0cm; margin-bottom: 0cm;}
         <li class="award" ng-repeat="award in resume.awards">
             <span class="awardTitle">{{award.title}}</span>,
             <span class="organization">{{award.organization}}</span>,
-            {{award.period.from.date.month}}/{{award.period.from.date.year}} to {{award.period.to.date.month}}/{{award.period.to.date.year}}
+            {{award.period.from.month}}/{{award.period.from.year}} to {{award.period.to.month}}/{{award.period.to.year}}
         </li>
     </ul>
 

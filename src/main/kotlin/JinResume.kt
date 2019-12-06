@@ -7,10 +7,10 @@ val resume = Resume(
                         surname = "Yu"
                 ),
                 address = Resume.Header.Address(
-                        street = "6434 102nd St, Apt 3K",
-                        city = "Rego Park",
+                        street = "6530 108nd St, Apt 2A",
+                        city = "Forest Hills",
                         state = "NY",
-                        zip = "11374"
+                        zip = "11375"
                 ),
                 contact = Resume.Header.Contact(
                         phone = "347-688-JAVA(5282)",
@@ -229,16 +229,11 @@ val resume = Resume(
                                 state = "NY"
                         ),
                         period = Period(
-                                from = Period.From(
-                                        date = Date(
-                                                month = 7,
-                                                year = 2018
-                                        )
+                                from = Date(
+                                        month = 7,
+                                        year = 2018
                                 ),
-                                to = Period.To(
-                                        date = Date(
-                                        )
-                                )
+                                to = Date()
                         ),
                         description = arrayOf(
                                 "JVM micro services using Java/Kotlin, Dropwizard, Kafka, Docker, AWS. "),
@@ -253,17 +248,13 @@ val resume = Resume(
                                 state = "NY"
                         ),
                         period = Period(
-                                from = Period.From(
-                                        date = Date(
-                                                month = 1,
-                                                year = 2016
-                                        )
+                                from = Date(
+                                        month = 1,
+                                        year = 2016
                                 ),
-                                to = Period.To(
-                                        date = Date(
-                                                month = 4,
-                                                year = 2018
-                                        )
+                                to = Date(
+                                        month = 4,
+                                        year = 2018
                                 )
                         ),
                         description = arrayOf(
@@ -300,19 +291,13 @@ val resume = Resume(
                                 state = "NY"
                         ),
                         period = Period(
-                                from = Period.From(
-                                        date = Date(
-                                                // 11
-                                                month = 4,
-                                                year = 2015
-                                        )
+                                from = Date(
+                                        month = 4,
+                                        year = 2015
                                 ),
-                                to = Period.To(
-                                        date = Date(
-                                                // 11
-                                                month = 11,
-                                                year = 2015
-                                        )
+                                to = Date(
+                                        month = 11,
+                                        year = 2015
                                 )
 //           to = "Present"
                         ),
@@ -348,17 +333,13 @@ val resume = Resume(
                                 state = "NY"
                         ),
                         period = Period(
-                                from = Period.From(
-                                        date = Date(
-                                                month = 8,
-                                                year = 2014
-                                        )
+                                from = Date(
+                                        month = 8,
+                                        year = 2014
                                 ),
-                                to = Period.To(
-                                        date = Date(
-                                                month = 4,
-                                                year = 2015
-                                        )
+                                to = Date(
+                                        month = 4,
+                                        year = 2015
                                 )
                         ),
                         description = arrayOf(
@@ -385,17 +366,13 @@ val resume = Resume(
                                 state = "NY"
                         ),
                         period = Period(
-                                from = Period.From(
-                                        date = Date(
-                                                month = 4,
-                                                year = 2011
-                                        )
+                                from = Date(
+                                        month = 4,
+                                        year = 2011
                                 ),
-                                to = Period.To(
-                                        date = Date(
-                                                month = 8,
-                                                year = 2014
-                                        )
+                                to = Date(
+                                        month = 8,
+                                        year = 2014
                                 )
                         ),
                         description = arrayOf(
@@ -436,19 +413,13 @@ val resume = Resume(
                                 state = "NY"
                         ),
                         period = Period(
-                                from = Period.From(
-                                        date = Date(
-                                                // 11
-                                                month = 11,
-                                                year = 2006
-                                        )
+                                from = Date(
+                                        month = 11,
+                                        year = 2006
                                 ),
-                                to = Period.To(
-                                        date = Date(
-                                                // 11
-                                                month = 8,
-                                                year = 2010
-                                        )
+                                to = Date(
+                                        month = 8,
+                                        year = 2010
                                 )
                         ),
                         description = arrayOf("Maintain and create applications to support trading platform."),
@@ -487,19 +458,13 @@ val resume = Resume(
                                 state = "NY"
                         ),
                         period = Period(
-                                from = Period.From(
-                                        date = Date(
-                                                // 11
-                                                month = 3,
-                                                year = 2006
-                                        )
+                                from = Date(
+                                        month = 3,
+                                        year = 2006
                                 ),
-                                to = Period.To(
-                                        date = Date(
-                                                // 11
-                                                month = 9,
-                                                year = 2006
-                                        )
+                                to = Date(
+                                        month = 9,
+                                        year = 2006
                                 )
                         )
                         // description = arrayOf("Crisp Wireless provides innovative mobile content management solutions enabling consumer-facing companies to deliver rich media content and engaging applications for revenue generation, brand promotion, and customer loyalty."),
@@ -547,17 +512,13 @@ val resume = Resume(
                                 state = "NY"
                         ),
                         period = Period(
-                                from = Period.From(
-                                        date = Date(
-                                                month = 9,
-                                                year = 2005
-                                        )
+                                from = Date(
+                                        month = 9,
+                                        year = 2005
                                 ),
-                                to = Period.To(
-                                        date = Date(
-                                                month = 12,
-                                                year = 2005
-                                        )
+                                to = Date(
+                                        month = 12,
+                                        year = 2005
                                 )
                         )
                         // description = arrayOf("A technology consulting firm, building and refining critical computer
@@ -584,17 +545,13 @@ val resume = Resume(
                                 state = "VA"
                         ),
                         period = Period(
-                                from = Period.From(
-                                        date = Date(
-                                                month = 1,
-                                                year = 2005
-                                        )
+                                from = Date(
+                                        month = 1,
+                                        year = 2005
                                 ),
-                                to = Period.To(
-                                        date = Date(
-                                                month = 9,
-                                                year = 2005
-                                        )
+                                to = Date(
+                                        month = 9,
+                                        year = 2005
                                 )
                         )
                         // description = arrayOf("SRA is a leading provider of information technology services and
@@ -808,17 +765,13 @@ val resume = Resume(
                         title = "Dean's List",
                         organization = "The Ohio State University",
                         period = Period(
-                                from = Period.From(
-                                        date = Date(
-                                                month = 1,
-                                                year = 2004
-                                        )
+                                from = Date(
+                                        month = 1,
+                                        year = 2004
                                 ),
-                                to = Period.To(
-                                        date = Date(
-                                                month = 12,
-                                                year = 2004
-                                        )
+                                to = Date(
+                                        month = 12,
+                                        year = 2004
                                 )
                         )
                 )

@@ -10,7 +10,7 @@ var resume = function (_, Kotlin) {
     if (academics === void 0)
       academics = new Resume$Academics();
     if (awards === void 0)
-      awards = new Resume$Awards();
+      awards = null;
     if (history === void 0)
       history = [];
     if (lastModified === void 0)
@@ -215,15 +215,11 @@ var resume = function (_, Kotlin) {
     return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && Kotlin.equals(this.degrees, other.degrees))));
   };
   function Resume$Awards(award) {
-    if (award === void 0)
-      award = new Resume$Awards$Award();
     this.award = award;
   }
   function Resume$Awards$Award(organization, period, title) {
     if (organization === void 0)
       organization = 'The Ohio State University';
-    if (period === void 0)
-      period = new Period();
     if (title === void 0)
       title = "Dean's Array";
     this.organization = organization;
@@ -435,8 +431,6 @@ var resume = function (_, Kotlin) {
       description = [];
     if (location === void 0)
       location = new Location();
-    if (period === void 0)
-      period = new Period();
     if (projects === void 0)
       projects = [];
     this.achievements = achievements;
@@ -643,7 +637,7 @@ var resume = function (_, Kotlin) {
   Resume.prototype.component8 = function () {
     return this.skillarea;
   };
-  Resume.prototype.copy_27z0k2$ = function (academics, awards, header, history, lastModified, misc, objective, skillarea) {
+  Resume.prototype.copy_j77w63$ = function (academics, awards, header, history, lastModified, misc, objective, skillarea) {
     return new Resume(academics === void 0 ? this.academics : academics, awards === void 0 ? this.awards : awards, header === void 0 ? this.header : header, history === void 0 ? this.history : history, lastModified === void 0 ? this.lastModified : lastModified, misc === void 0 ? this.misc : misc, objective === void 0 ? this.objective : objective, skillarea === void 0 ? this.skillarea : skillarea);
   };
   Resume.prototype.toString = function () {
@@ -733,10 +727,8 @@ var resume = function (_, Kotlin) {
     return this === other || (other !== null && (typeof other === 'object' && (Object.getPrototypeOf(this) === Object.getPrototypeOf(other) && (Kotlin.equals(this.month, other.month) && Kotlin.equals(this.year, other.year)))));
   };
   function Period(from, to) {
-    if (from === void 0)
-      from = new Period$From();
     if (to === void 0)
-      to = new Period$To();
+      to = null;
     this.from = from;
     this.to = to;
   }
@@ -805,7 +797,7 @@ var resume = function (_, Kotlin) {
   Period.prototype.component2 = function () {
     return this.to;
   };
-  Period.prototype.copy_42baxf$ = function (from, to) {
+  Period.prototype.copy_mk69qr$ = function (from, to) {
     return new Period(from === void 0 ? this.from : from, to === void 0 ? this.to : to);
   };
   Period.prototype.toString = function () {
@@ -860,32 +852,32 @@ var resume = function (_, Kotlin) {
   _.main = main;
   var tmp$, tmp$_0, tmp$_1, tmp$_2, tmp$_3, tmp$_4, tmp$_5, tmp$_6, tmp$_7, tmp$_8, tmp$_9, tmp$_10, tmp$_11, tmp$_12, tmp$_13, tmp$_14, tmp$_15, tmp$_16, tmp$_17, tmp$_18, tmp$_19, tmp$_20, tmp$_21, tmp$_22, tmp$_23, tmp$_24, tmp$_25, tmp$_26, tmp$_27, tmp$_28, tmp$_29;
   tmp$ = new Resume$Header$Name('Jin', 'S', 'Yu');
-  tmp$_0 = new Resume$Header(new Resume$Header$Address('Rego Park', 'NY', '6434 102nd St, Apt 3K', '11374'), new Resume$Header$Contact('career19@jsy.us', '347-688-JAVA(5282)'), tmp$);
+  tmp$_0 = new Resume$Header(new Resume$Header$Address('Forest Hills', 'NY', '6530 108nd St, Apt 2A', '11375'), new Resume$Header$Contact('career19@jsy.us', '347-688-JAVA(5282)'), tmp$);
   tmp$_1 = ['Seeking a software engineering position in a creative and collaborative environment \n    where I can practice my craft and learn as well as teach.', 'My current interests include Android and iOS mobile application development,\n    the Java, Kotlin, Swift and Scala programming languages, open-source development(https://github.com/sheng168),\n    high throughput and low latency architecture\n    and API design(https://bitbucket.org/sheng/parsefacade).'];
   tmp$_2 = [new Resume$Skillarea([new Resume$Skillarea$Skillset(['Java', 'Kotlin', 'Scala', 'Swift', 'Objective C', 'C# .Net', 'JavaScript', 'TypeScript'], 'Programming Languages'), new Resume$Skillarea$Skillset(['Object Pascal (Delphi)', 'C/C++', 'Visual Basic', 'SQL', 'MIPS assembly', 'SPARC assembly', 'Motorola micro-controller assembly', 'HyperTalk', 'AppleScript', 'Shell scripting'], 'Archive Languages'), new Resume$Skillarea$Skillset(['Java Programming Language', 'Threading/Synchronization', 'JDBC', 'java.io', 'java.net', 'Collections', 'Reflection API', 'Servlets and JSP', 'JMS', 'Spring', 'Swing/AWT'], 'Java'), new Resume$Skillarea$Skillset(['Object Oriented Design and Analysis', 'Design Patterns', 'UML Modeling', 'Use Case', 'Sequence Diagram'], 'Software Design'), new Resume$Skillarea$Skillset(['Mac OS X', 'UNIX (Linux and Solaris)', 'Windows', 'BeOS'], 'Operating Systems'), new Resume$Skillarea$Skillset(['Oracle', 'IBM DB2', 'MS SQL Server and TSQL', 'SQLite', 'Access', 'FileMaker Pro'], 'Database Management'), new Resume$Skillarea$Skillset(['Eclipse', 'JetBrains', 'NetBeans', 'Xcode', 'Microsoft Visual Studio', 'GIT', 'Subversion(SVN)'], 'Development Environments')], 'Software Skills'), new Resume$Skillarea([new Resume$Skillarea$Skillset(['Equities', 'Options', 'Futures', 'FIX format', 'Micro and Macro Economics', 'Economics History', 'Banking System'], 'Finance')], 'Finance')];
   tmp$_3 = new Location('New York', 'NY');
-  tmp$_4 = new Period(new Period$From(new Date_0(7, 2018)), new Period$To(new Date_0()));
+  tmp$_4 = new Period(new Date_0(7, 2018), new Date_0());
   tmp$_5 = new Resume$History(void 0, ['JVM micro services using Java/Kotlin, Dropwizard, Kafka, Docker, AWS. '], 'Clearme.com', 'Sr Software Engineer', tmp$_3, tmp$_4, []);
   tmp$_6 = new Location('New York', 'NY');
-  tmp$_7 = new Period(new Period$From(new Date_0(1, 2016)), new Period$To(new Date_0(4, 2018)));
+  tmp$_7 = new Period(new Date_0(1, 2016), new Date_0(4, 2018));
   tmp$_8 = new Resume$History(void 0, ['As a member of the Agent team, Maintain and enhance the network monitoring SaaS product. \n        Triage bug reports, fix software defects and develop new features. \n        Estimate development effects for backlog tasks. Perform R&D to determine feasibility and break down large tasks. \n        Evaluate software libraries for inclusion in our projects. Perform code reviews and production support.'], 'Catchpoint', 'Sr Software Engineer', tmp$_6, tmp$_7, [new Resume$History$Project('Contribute my experience to this major effort to reimplement our core product. Advocate for finding simple designs to our problems; using a limited number of well know features to compose our solution.', 'Agent 2.0 Rewrite'), new Resume$History$Project('Create a grammar to replace the existing hand-written parser for test scripts.', 'Antlr Grammar'), new Resume$History$Project('Port Agent software from Windows/Linux to MacOS using mainly C# and .Net in Visual Studio and Xamarin Studio.\n            Instrument Safari Mobile in simulator and real device to measure network activity while performing automated testing.', 'Safari Mobile'), new Resume$History$Project('Create the Java client library for our REST API. \n            Ensure that authentication token renewal is implemented both correctly and efficiently.', 'Java Client for REST API')]);
   tmp$_9 = new Location('New York', 'NY');
-  tmp$_10 = new Period(new Period$From(new Date_0(4, 2015)), new Period$To(new Date_0(11, 2015)));
+  tmp$_10 = new Period(new Date_0(4, 2015), new Date_0(11, 2015));
   tmp$_11 = new Resume$History(void 0, ['Responsible for the development of mobile SDK.'], 'RealNetworks', 'Lead Mobile SDK Engineer', tmp$_9, tmp$_10, [new Resume$History$Project('Develop Android SDK while managing contractor to develop iOS SDK. \n            Allow third-party apps to have easy access to RealPlayer Cloud data store via REST API.\n            We settled on building our SDK on top of Retrofit and OkHttp to allow use to \n            use type-safe Java interfaces to map to our REST API and perform client side \n            transformations to fix inconsistencies.', 'RealCloud SDK'), new Resume$History$Project('Polish private API for public consumption allowing third-party apps \n            to generate video stories by supplying their own content.', 'RealTimes SDK')]);
   tmp$_12 = new Location('New York', 'NY');
-  tmp$_13 = new Period(new Period$From(new Date_0(8, 2014)), new Period$To(new Date_0(4, 2015)));
+  tmp$_13 = new Period(new Date_0(8, 2014), new Date_0(4, 2015));
   tmp$_14 = new Resume$History(void 0, ['Responsible for the deployment of Algomi platform to client environment. \n        Work with sales team to communicate technical architecture and integration requirements.'], 'Algomi', 'US Integration Lead Engineer', tmp$_12, tmp$_13);
   tmp$_15 = new Location('New York', 'NY');
-  tmp$_16 = new Period(new Period$From(new Date_0(4, 2011)), new Period$To(new Date_0(8, 2014)));
+  tmp$_16 = new Period(new Date_0(4, 2011), new Date_0(8, 2014));
   tmp$_17 = ['Responsible for the development of new applications with mobile, desktop and server components.'];
   tmp$_18 = [new Resume$History$Project('Develop mobile application for parents to monitor child"s usage of Android device.\n            All data is store using a popular backend-as-a-service.\n            Parents receive real-time activity stream and can update child"s device configuration\n            via push notifications.', 'Abeona'), new Resume$History$Project('Develop Android and iOS messaging applications using XMPP and OpenFire server.', 'Mobile Messaging Application'), new Resume$History$Project('Develop location-based messaging using Twitter API.', 'Mobile Twitter Application'), new Resume$History$Project('Develop server application using SMPP for inter-carrier messaging.', 'Server Application')];
   tmp$_19 = new Resume$History(['Successfully developed and deployed cross-platform mobile application to Android, iOS and Web', 'Lead development of Android and iOS XMPP client', 'Implement SMPP client and server that is capable of saturating gigabit ethernet', 'Train new development team members by documenting application code, creating diagrams, performing code review and prividing hands-on training'], tmp$_17, 'RealNetworks', 'Lead Development Engineer', tmp$_15, tmp$_16, tmp$_18);
   tmp$_20 = new Location('New York', 'NY');
-  tmp$_21 = new Period(new Period$From(new Date_0(11, 2006)), new Period$To(new Date_0(8, 2010)));
+  tmp$_21 = new Period(new Date_0(11, 2006), new Date_0(8, 2010));
   tmp$_22 = ['Maintain and create applications to support trading platform.'];
   tmp$_23 = [new Resume$History$Project('Create Drop Copy server application that process FIX message in near-realtime from Tibrv and send to clients via MQueue.\n            Create server application to allow application messages to be replayed.\n            Create server application to capture high volume trading data into MS SQL Server.\n            Instructment applications with JMX to enable remote monitoring and configuration change.\n            Refactor and architect software to into reusable components allowing connections of data sources to\n            data destinations with flexible processing and threading models.\n            A data source or destination can be a TIBCO Rendezvous subject, IBM MQueue, TCP connection, JDBC database or JMS.\n            Implement fault-tolerant feature using active/inactive process model.\n            Replace custom code with open-source component to reduce code size while increasing functionality.', 'Server Applications'), new Resume$History$Project('Take order execution updates from TIBCO Rendezvous and display them in a dynamic Java Swing interface.\n            Read updates from TCP connection and display them in a table component within a Java Applet.\n            Both applications use multiple threads to perform background operations to keep user interface responsive.          ', 'Desktop Applications')];
-  tmp$_24 = [tmp$_5, tmp$_8, tmp$_11, tmp$_14, tmp$_19, new Resume$History(['Reduce message processing latency by 80% from 50ms to 10ms by implementing straight-through processing', 'Eliminate 30 minute end-of-day message backlog by increasing throughput to keep up with incoming message burst', 'Increase application reliability by fixing threading bugs and memory leaks', 'Simplify software while adding functionality by factoring out shared code across projects'], tmp$_22, 'Merrill Lynch', 'Senior Software Developer', tmp$_20, tmp$_21, tmp$_23), new Resume$History(void 0, void 0, 'Crispwireless', 'Senior Systems Engineer', new Location('New York', 'NY'), new Period(new Period$From(new Date_0(3, 2006)), new Period$To(new Date_0(9, 2006)))), new Resume$History(void 0, void 0, 'SOFT Inc', 'Senior Systems Consultant', new Location('New York', 'NY'), new Period(new Period$From(new Date_0(9, 2005)), new Period$To(new Date_0(12, 2005)))), new Resume$History(void 0, void 0, 'SRA International', 'Professional Staff Software Developer', new Location('Fairfax', 'VA'), new Period(new Period$From(new Date_0(1, 2005)), new Period$To(new Date_0(9, 2005))))];
-  tmp$_25 = new Resume$Awards(new Resume$Awards$Award('The Ohio State University', new Period(new Period$From(new Date_0(1, 2004)), new Period$To(new Date_0(12, 2004))), "Dean's List"));
+  tmp$_24 = [tmp$_5, tmp$_8, tmp$_11, tmp$_14, tmp$_19, new Resume$History(['Reduce message processing latency by 80% from 50ms to 10ms by implementing straight-through processing', 'Eliminate 30 minute end-of-day message backlog by increasing throughput to keep up with incoming message burst', 'Increase application reliability by fixing threading bugs and memory leaks', 'Simplify software while adding functionality by factoring out shared code across projects'], tmp$_22, 'Merrill Lynch', 'Senior Software Developer', tmp$_20, tmp$_21, tmp$_23), new Resume$History(void 0, void 0, 'Crispwireless', 'Senior Systems Engineer', new Location('New York', 'NY'), new Period(new Date_0(3, 2006), new Date_0(9, 2006))), new Resume$History(void 0, void 0, 'SOFT Inc', 'Senior Systems Consultant', new Location('New York', 'NY'), new Period(new Date_0(9, 2005), new Date_0(12, 2005))), new Resume$History(void 0, void 0, 'SRA International', 'Professional Staff Software Developer', new Location('Fairfax', 'VA'), new Period(new Date_0(1, 2005), new Date_0(9, 2005)))];
+  tmp$_25 = new Resume$Awards(new Resume$Awards$Award('The Ohio State University', new Period(new Date_0(1, 2004), new Date_0(12, 2004)), "Dean's List"));
   tmp$_26 = new Date_0(12, 2004);
   tmp$_27 = new Location('Columbus', 'Ohio');
   tmp$_28 = new Resume$Academics(new Resume$Academics$Degrees(new Resume$Academics$Degrees$Degree(tmp$_26, new Resume$Academics$Degrees$Degree$Gpa(new Resume$Academics$Degrees$Degree$Gpa$Note('Major GPA = 3.61 out of 4.00.'), '4.00', '3.38'), 'The Ohio State University', 'B.S.', tmp$_27, 'Computer Science and Engineering')));

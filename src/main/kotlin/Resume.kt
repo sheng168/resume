@@ -1,7 +1,7 @@
 
 data class Resume(
         val academics: Academics = Academics(),
-        val awards: Awards = Awards(),
+        val awards: Awards? = null,
         val header: Header,
         val history: Array<History> = arrayOf(),
         val lastModified: LastModified = LastModified(),
@@ -37,11 +37,11 @@ data class Resume(
     }
 
     data class Awards(
-            val award: Award = Award()
+            val award: Award
     ) {
         data class Award(
                 val organization: String = "The Ohio State University", // The Ohio State University
-                val period: Period = Period(),
+                val period: Period,
                 val title: String = "Dean's Array" // Dean's Array
         )
     }
@@ -76,7 +76,7 @@ data class Resume(
             val employer: String, // Clearme.com
             val jobtitle: String, // Sr Software Engineer
             val location: Location = Location(),
-            val period: Period = Period(),
+            val period: Period,
             val projects: Array<Project> = arrayOf()
     ) {
         data class Project(
@@ -111,8 +111,8 @@ data class Date(
 )
 
 data class Period(
-        val from: From = From(),
-        val to: To = To()
+        val from: Date,
+        val to: Date? = null
 ) {
 
     data class From(
