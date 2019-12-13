@@ -356,9 +356,9 @@ val resume = Resume(
 //         projects = arrayOf(
 //           (
 //             title = "Abeona",
-//             description = "Develop mobile application for parents to monitor child"s usage of Android device.
+//             description = "Develop mobile application for parents to monitor child's usage of Android device.
 //             All data is store using a popular backend-as-a-service.
-//             Parents receive real-time activity stream and can update child"s device configuration
+//             Parents receive real-time activity stream and can update child's device configuration
 //             via push notifications."
 //           ),
 //         ),
@@ -388,9 +388,9 @@ val resume = Resume(
                         projects = arrayOf(
                                 Resume.History.Project(
                                         title = "Abeona",
-                                        description = """Develop mobile application for parents to monitor child"s usage of Android device.
+                                        description = """Develop mobile application for parents to monitor child's usage of Android device.
             All data is store using a popular backend-as-a-service.
-            Parents receive real-time activity stream and can update child"s device configuration
+            Parents receive real-time activity stream and can update child's device configuration
             via push notifications."""
                                 ),
                                 Resume.History.Project(
@@ -803,7 +803,7 @@ val resume = Resume(
                                         score = "3.38",
                                         possible = "4.00",
                                         note = Resume.Academics.Degrees.Degree.Gpa.Note(
-                                                para = "Major GPA = 3.61 out of 4.00."
+                                                para = "Major GPA: 3.61 out of 4.00."
                                         )
                                 )
                         )

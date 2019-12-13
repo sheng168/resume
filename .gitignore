@@ -1,0 +1,5 @@
+.idea
+resume.iml
+*.meta.js
+.gradle
+build
