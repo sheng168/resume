@@ -1,20 +1,20 @@
 package sample
 
-import io.ktor.application.*
-import io.ktor.html.*
-import io.ktor.http.ContentType
-import io.ktor.http.content.*
-import io.ktor.response.respondText
-import io.ktor.routing.*
-import io.ktor.server.engine.*
-import io.ktor.server.netty.*
-//import jdk.jfr.ContentType
-import kotlinx.html.*
 //import kotlinx.css.*
 //import kotlinx.css.properties.*
 
+import io.ktor.application.call
+import io.ktor.html.respondHtml
+import io.ktor.http.ContentType
+import io.ktor.http.content.resource
+import io.ktor.http.content.static
+import io.ktor.response.respondText
+import io.ktor.routing.get
+import io.ktor.routing.routing
+import io.ktor.server.engine.embeddedServer
+import io.ktor.server.netty.Netty
+import kotlinx.html.*
 import resume
-import java.io.*
 
 actual class Sample {
     actual fun checkMe() = 42
@@ -31,11 +31,9 @@ fun main() {
             get("/") {
                 call.respondHtml {
                     head {
-                        title("Hello from Ktor!")
-                        style {
-
-
-                        }
+                        title("${resume.header.name.firstname} ${resume.header.name.middlenames} ${resume.header.name.surname} - Resume")
+//                        style {
+//                        }
                         styleLink("/styles.css")
                     }
                     body {
@@ -47,7 +45,7 @@ fun main() {
                                 p("address") {
                                     +"${resume.header.address.street}"
                                     br()
-                                    +"${resume.header.address.city}, ${resume.header.address.state} ${resume.header.address.zip}}"
+                                    +"${resume.header.address.city}, ${resume.header.address.state} ${resume.header.address.zip}"
                                     p {
                                         +"Phone: ${resume.header.contact.phone}"
                                         br()
@@ -91,12 +89,9 @@ fun main() {
                                                 span("skillSetTitle") {
                                                     +"${skillset.title}: "
                                                 }
-                                                skillset.skill.forEach { skill ->
-                                                    span("skills") {
-                                                        span {
-                                                            //  ng-repeat="skill in skillset.skill">
-                                                            +"${skill}, " // todo  {{(last)?'.':','}}"
-                                                        }
+                                                span("skills") {
+                                                    skillset.skill.forEach { skill -> //  ng-repeat="skill in skillset.skill">
+                                                        +"${skill}, " // todo  {{(last)?'.':','}}"
                                                     }
                                                 }
 
