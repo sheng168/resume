@@ -1,8 +1,9 @@
 plugins {
     kotlin("multiplatform") version "1.8.0"
+    id("maven-publish")
 }
 
-group = "me.jin"
+group = "us.jsy"
 version = "1.0-SNAPSHOT"
 
 repositories {
