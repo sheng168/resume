@@ -4,13 +4,13 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class Resume(
+        val header: Header,
+        val objective: Array<String> = arrayOf(),
+        val history: Array<History> = arrayOf(),
         val academics: Academics? = null,
         val awards: Awards? = null,
-        val header: Header,
-        val history: Array<History> = arrayOf(),
         val lastModified: Date? = null,
         val misc: Array<String> = arrayOf(),
-        val objective: Array<String> = arrayOf(),
         val skillarea: Array<Skillarea> = arrayOf()
 ) {
     @Serializable
@@ -24,21 +24,21 @@ data class Resume(
             @Serializable
             data class Degree(
                     val date: Date,
-                    val gpa: Gpa = Gpa(),
-                    val institution: String = "The Ohio State University", // The Ohio State University
-                    val level: String = "B.S.", // B.S.
-                    val location: Location = Location(),
-                    val major: String = "Computer Science and Engineering" // Computer Science and Engineering
+                    val gpa: Gpa,
+                    val institution: String, // The Ohio State University
+                    val level: String, // B.S.
+                    val location: Location,
+                    val major: String // Computer Science and Engineering
             ) {
                 @Serializable
                 data class Gpa(
-                        val note: Note = Note(),
-                        val possible: String = "4.00", // 4.00
-                        val score: String = "3.38" // 3.38
+                        val note: Note,
+                        val possible: String, // 4.00
+                        val score: String // 3.38
                 ) {
                     @Serializable
                     data class Note(
-                            val para: String = "Major GPA: 3.61 out of 4.00." // Major GPA: 3.61 out of 4.00.
+                            val para: String // Major GPA: 3.61 out of 4.00.
                     )
                 }
             }
@@ -87,12 +87,12 @@ data class Resume(
 
     @Serializable
     data class History(
-            val achievements: Array<String> = arrayOf(),
-            val description: Array<String> = arrayOf(),
-            val employer: String, // Clearme.com
             val jobtitle: String, // Sr Software Engineer
-            val location: Location = Location(),
+            val employer: String, // Clearme.com
+            val location: Location,
             val period: Period,
+            val description: Array<String> = arrayOf(),
+            val achievements: Array<String> = arrayOf(),
             val projects: Array<Project> = arrayOf()
     ) {
         @Serializable
@@ -104,27 +104,27 @@ data class Resume(
 
     @Serializable
     data class Skillarea(
+            val title: String,
             val skillset: Array<Skillset> = arrayOf(),
-            val title: String
     ) {
         @Serializable
         data class Skillset(
+                val title: String,
                 val skill: Array<String> = arrayOf(),
-                val title: String
         )
     }
 }
 
 @Serializable
 data class Location(
-        val city: String = "New York", // New York
-        val state: String = "NY" // NY
+        val city: String, // New York
+        val state: String // NY
 )
 
 @Serializable
 data class Date(
         val month: Int, // 7
-        val year: Int? = null // 2018
+        val year: Int, // 2018
 )
 
 @Serializable

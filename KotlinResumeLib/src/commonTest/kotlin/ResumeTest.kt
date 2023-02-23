@@ -9,6 +9,7 @@ class ResumeTest {
     @Test
     fun testSample() {
         assertEquals("Jin", resume.header.name.firstname )
+        assertEquals("", resume.academics?.degrees?.degree?.institution)
     }
     @Test
     fun testJson() {

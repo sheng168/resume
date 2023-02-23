@@ -1,0 +1,393 @@
+{
+    "header": {
+        "address": {
+            "city": "Forest Hills",
+            "state": "NY",
+            "street": "6530 108th St, Apt 2A",
+            "zip": "11375"
+        },
+        "contact": {
+            "email": "career19@jsy.us",
+            "phone": "347-688-JAVA(5282)"
+        },
+        "name": {
+            "firstname": "Jin",
+            "middlenames": "S",
+            "surname": "Yu"
+        }
+    },
+    "history": [
+        {
+            "achievements": [
+                "Create Dropwizard bundles to reuse software and consistently implement features: \n                                Vault secret management, Jwt token security and interceptor base REST request logging",
+                "Refactor codebase to move CorrelationInfo to ThreadLocal, \n                                use primitive where object is not needed \n                                and increase platform independence by using more Kotlin",
+                "Create Maven parent pom to share dependencies between services and ease migration of services from Java 8 to 11."
+            ],
+            "description": [
+                "JVM micro services using Java/Kotlin, Dropwizard, Kafka, Docker, AWS. "
+            ],
+            "employer": "Clearme.com",
+            "jobtitle": "Sr Software Engineer",
+            "period": {
+                "from": {
+                    "month": 7,
+                    "year": 2018
+                },
+                "to": {
+                    "month": 1,
+                    "year": 2011
+                }
+            },
+            "projects": [
+            ]
+        },
+        {
+            "achievements": [
+            ],
+            "description": [
+                "As a member of the Agent team, Maintain and enhance the network monitoring SaaS product. \n        Triage bug reports, fix software defects and develop new features. \n        Estimate development effects for backlog tasks. Perform R&D to determine feasibility and break down large tasks. \n        Evaluate software libraries for inclusion in our projects. Perform code reviews and production support."
+            ],
+            "employer": "Catchpoint",
+            "jobtitle": "Sr Software Engineer",
+            "period": {
+                "from": {
+                    "month": 1,
+                    "year": 2016
+                },
+                "to": {
+                    "month": 4,
+                    "year": 2018
+                }
+            },
+            "projects": [
+                {
+                    "description": "Contribute my experience to this major effort to reimplement our core product. Advocate for finding simple designs to our problems; using a limited number of well know features to compose our solution.",
+                    "title": "Agent 2.0 Rewrite"
+                },
+                {
+                    "description": "Create a grammar to replace the existing hand-written parser for test scripts.",
+                    "title": "Antlr Grammar"
+                },
+                {
+                    "description": "Port Agent software from Windows/Linux to MacOS using mainly C# and .Net in Visual Studio and Xamarin Studio.\n            Instrument Safari Mobile in simulator and real device to measure network activity while performing automated testing.",
+                    "title": "Safari Mobile"
+                },
+                {
+                    "description": "Create the Java client library for our REST API. \n            Ensure that authentication token renewal is implemented both correctly and efficiently.",
+                    "title": "Java Client for REST API"
+                }
+            ]
+        },
+        {
+            "achievements": [
+            ],
+            "description": [
+                "Responsible for the development of mobile SDK."
+            ],
+            "employer": "RealNetworks",
+            "jobtitle": "Lead Mobile SDK Engineer",
+            "period": {
+                "from": {
+                    "month": 4,
+                    "year": 2015
+                },
+                "to": {
+                    "month": 11,
+                    "year": 2015
+                }
+            },
+            "projects": [
+                {
+                    "description": "Develop Android SDK while managing contractor to develop iOS SDK. \n            Allow third-party apps to have easy access to RealPlayer Cloud data store via REST API.\n            We settled on building our SDK on top of Retrofit and OkHttp to allow use to \n            use type-safe Java interfaces to map to our REST API and perform client side \n            transformations to fix inconsistencies.",
+                    "title": "RealCloud SDK"
+                },
+                {
+                    "description": "Polish private API for public consumption allowing third-party apps \n            to generate video stories by supplying their own content.",
+                    "title": "RealTimes SDK"
+                }
+            ]
+        },
+        {
+            "achievements": [
+            ],
+            "description": [
+                "Responsible for the deployment of Algomi platform to client environment. \n        Work with sales team to communicate technical architecture and integration requirements."
+            ],
+            "employer": "Algomi",
+            "jobtitle": "US Integration Lead Engineer",
+            "period": {
+                "from": {
+                    "month": 8,
+                    "year": 2014
+                },
+                "to": {
+                    "month": 4,
+                    "year": 2015
+                }
+            },
+            "projects": [
+            ]
+        },
+        {
+            "achievements": [
+                "Successfully developed and deployed cross-platform mobile application to Android, iOS and Web",
+                "Lead development of Android and iOS XMPP client",
+                "Implement SMPP client and server that is capable of saturating gigabit ethernet",
+                "Train new development team members by documenting application code, creating diagrams, performing code review and prividing hands-on training"
+            ],
+            "description": [
+                "Responsible for the development of new applications with mobile, desktop and server components."
+            ],
+            "employer": "RealNetworks",
+            "jobtitle": "Lead Development Engineer",
+            "period": {
+                "from": {
+                    "month": 4,
+                    "year": 2011
+                },
+                "to": {
+                    "month": 8,
+                    "year": 2014
+                }
+            },
+            "projects": [
+                {
+                    "description": "Develop mobile application for parents to monitor child's usage of Android device.\n            All data is store using a popular backend-as-a-service.\n            Parents receive real-time activity stream and can update child's device configuration\n            via push notifications.",
+                    "title": "Abeona"
+                },
+                {
+                    "description": "Develop Android and iOS messaging applications using XMPP and OpenFire server.",
+                    "title": "Mobile Messaging Application"
+                },
+                {
+                    "description": "Develop location-based messaging using Twitter API.",
+                    "title": "Mobile Twitter Application"
+                },
+                {
+                    "description": "Develop server application using SMPP for inter-carrier messaging.",
+                    "title": "Server Application"
+                }
+            ]
+        },
+        {
+            "achievements": [
+                "Reduce message processing latency by 80% from 50ms to 10ms by implementing straight-through processing",
+                "Eliminate 30 minute end-of-day message backlog by increasing throughput to keep up with incoming message burst",
+                "Increase application reliability by fixing threading bugs and memory leaks",
+                "Simplify software while adding functionality by factoring out shared code across projects"
+            ],
+            "description": [
+                "Maintain and create applications to support trading platform."
+            ],
+            "employer": "Merrill Lynch",
+            "jobtitle": "Senior Software Developer",
+            "period": {
+                "from": {
+                    "month": 11,
+                    "year": 2006
+                },
+                "to": {
+                    "month": 8,
+                    "year": 2010
+                }
+            },
+            "projects": [
+                {
+                    "description": "Create Drop Copy server application that process FIX message in near-realtime from Tibrv and send to clients via MQueue.\n            Create server application to allow application messages to be replayed.\n            Create server application to capture high volume trading data into MS SQL Server.\n            Instructment applications with JMX to enable remote monitoring and configuration change.\n            Refactor and architect software to into reusable components allowing connections of data sources to\n            data destinations with flexible processing and threading models.\n            A data source or destination can be a TIBCO Rendezvous subject, IBM MQueue, TCP connection, JDBC database or JMS.\n            Implement fault-tolerant feature using active/inactive process model.\n            Replace custom code with open-source component to reduce code size while increasing functionality.",
+                    "title": "Server Applications"
+                },
+                {
+                    "description": "Take order execution updates from TIBCO Rendezvous and display them in a dynamic Java Swing interface.\n            Read updates from TCP connection and display them in a table component within a Java Applet.\n            Both applications use multiple threads to perform background operations to keep user interface responsive.          ",
+                    "title": "Desktop Applications"
+                }
+            ]
+        },
+        {
+            "achievements": [
+            ],
+            "description": [
+            ],
+            "employer": "Crispwireless",
+            "jobtitle": "Senior Systems Engineer",
+            "period": {
+                "from": {
+                    "month": 3,
+                    "year": 2006
+                },
+                "to": {
+                    "month": 9,
+                    "year": 2006
+                }
+            },
+            "projects": [
+            ]
+        },
+        {
+            "achievements": [
+            ],
+            "description": [
+            ],
+            "employer": "SOFT Inc",
+            "jobtitle": "Senior Systems Consultant",
+            "period": {
+                "from": {
+                    "month": 9,
+                    "year": 2005
+                },
+                "to": {
+                    "month": 12,
+                    "year": 2005
+                }
+            },
+            "projects": [
+            ]
+        },
+        {
+            "achievements": [
+            ],
+            "description": [
+            ],
+            "employer": "SRA International",
+            "jobtitle": "Professional Staff Software Developer",
+            "location": {
+                "city": "Fairfax",
+                "state": "VA"
+            },
+            "period": {
+                "from": {
+                    "month": 1,
+                    "year": 2005
+                },
+                "to": {
+                    "month": 9,
+                    "year": 2005
+                }
+            },
+            "projects": [
+            ]
+        }
+    ],
+    "lastModified": {
+        "month": 12,
+        "year": 2019
+    },
+    "misc": [
+        "Achieve world leading level 72 in Plants vs Zombies Free Vasebreaker Endless on iPhone",
+        "This resume is created and edited as a XML document. XSLT is use to create HTML, plain text or PDF versions with the same content as needed.",
+        "It has been converted to JSON and rendered using AngularJS into HTML."
+    ],
+    "objective": [
+        "Seeking a software engineering position in a creative and collaborative environment \n    where I can practice my craft and learn as well as teach.",
+        "My current interests include Android and iOS mobile application development,\n    the Java, Kotlin, Swift and Scala programming languages, open-source development(https://github.com/sheng168),\n    high throughput and low latency architecture\n    and API design(https://bitbucket.org/sheng/parsefacade)."
+    ],
+    "skillarea": [
+        {
+            "skillset": [
+                {
+                    "skill": [
+                        "Java",
+                        "Kotlin",
+                        "Scala",
+                        "Swift",
+                        "Objective C",
+                        "C# .Net",
+                        "JavaScript",
+                        "TypeScript"
+                    ],
+                    "title": "Programming Languages"
+                },
+                {
+                    "skill": [
+                        "Object Pascal (Delphi)",
+                        "C/C++",
+                        "Visual Basic",
+                        "SQL",
+                        "MIPS assembly",
+                        "SPARC assembly",
+                        "Motorola micro-controller assembly",
+                        "HyperTalk",
+                        "AppleScript",
+                        "Shell scripting"
+                    ],
+                    "title": "Archive Languages"
+                },
+                {
+                    "skill": [
+                        "Java Programming Language",
+                        "Threading/Synchronization",
+                        "JDBC",
+                        "java.io",
+                        "java.net",
+                        "Collections",
+                        "Reflection API",
+                        "Servlets and JSP",
+                        "JMS",
+                        "Spring",
+                        "Swing/AWT"
+                    ],
+                    "title": "Java"
+                },
+                {
+                    "skill": [
+                        "Object Oriented Design and Analysis",
+                        "Design Patterns",
+                        "UML Modeling",
+                        "Use Case",
+                        "Sequence Diagram"
+                    ],
+                    "title": "Software Design"
+                },
+                {
+                    "skill": [
+                        "Mac OS X",
+                        "UNIX (Linux and Solaris)",
+                        "Windows",
+                        "BeOS"
+                    ],
+                    "title": "Operating Systems"
+                },
+                {
+                    "skill": [
+                        "Oracle",
+                        "IBM DB2",
+                        "MS SQL Server and TSQL",
+                        "SQLite",
+                        "Access",
+                        "FileMaker Pro"
+                    ],
+                    "title": "Database Management"
+                },
+                {
+                    "skill": [
+                        "Eclipse",
+                        "JetBrains",
+                        "NetBeans",
+                        "Xcode",
+                        "Microsoft Visual Studio",
+                        "GIT",
+                        "Subversion(SVN)"
+                    ],
+                    "title": "Development Environments"
+                }
+            ],
+            "title": "Software Skills"
+        },
+        {
+            "skillset": [
+                {
+                    "skill": [
+                        "Equities",
+                        "Options",
+                        "Futures",
+                        "FIX format",
+                        "Micro and Macro Economics",
+                        "Economics History",
+                        "Banking System"
+                    ],
+                    "title": "Finance"
+                }
+            ],
+            "title": "Finance"
+        }
+    ]
+}

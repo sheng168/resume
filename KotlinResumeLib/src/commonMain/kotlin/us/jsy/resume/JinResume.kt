@@ -19,7 +19,7 @@ val resume = Resume(
                 ),
                 contact = Resume.Header.Contact(
                         phone = "347-688-JAVA(5282)",
-                        email = "career19@jsy.us"
+                        email = "career21@jsy.us"
                 )
         ),
 
