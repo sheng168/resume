@@ -1,3 +1,8 @@
+package us.jsy.resume
+
+import us.jsy.resume.*
+import us.jsy.resume.Resume
+
 val resume = Resume(
         header = Resume.Header(
                 name = Resume.Header.Name(
@@ -233,6 +238,10 @@ val resume = Resume(
                                 from = Date(
                                         month = 7,
                                         year = 2018
+                                ),
+                                to = Date(
+                                        month = 1,
+                                        year = 2011
                                 )
                         ),
                         description = arrayOf(
@@ -624,7 +633,7 @@ val resume = Resume(
 //           ),
 //           project6 = (
 //             title = "OS Lab",
-//             description = "Use C to implement various operation system components; including priority base process scheduler, virtual memory system, networking layer, disk scheduler in OSP environment."
+//             description = "Use C to implement various operating system components; including priority base process scheduler, virtual memory system, networking layer, disk scheduler in OSP environment."
 //           ),
 //           project7 = (
 //             title = "Numerical Methods",

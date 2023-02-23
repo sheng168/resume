@@ -1,3 +1,5 @@
+package us.jsy.resume
+
 import kotlinx.serialization.Serializable
 
 @Serializable
